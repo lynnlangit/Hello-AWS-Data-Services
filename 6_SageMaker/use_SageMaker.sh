@@ -17,8 +17,16 @@
 
 # info about included notebooks
 # 4. Use the 'mnist' example to see how different algorithms work.
+#       NOTE: Training will take ~10 minutes on a cpu-based machines
 #       TIP: You can use 'k-means (unsupervised clustering',
 #           gluon (layer over MxNet), MxNet (with cpu or gpu if available)
+
+# understanding algorithm selection using 'mnist' above
+#       Unsupervised clustering via K-means will be slow and produce weak results (not a good choice)
+#       Supervised classification via MxNet (DNN) will produce much better results
+#           uses Multi-layer (2D) perceptron
+#       Supervised classification via MxNet (CNN) will produce excellent results
+#           uses LeNet (3D) - also this implementation would train much faster if GPU were available
 
 # using custom algorithms
 # 5a. Use sample, must download entire source files from GitHub
