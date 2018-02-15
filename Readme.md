@@ -15,8 +15,10 @@ Includes simple scripts as follows:
 Includes information about using machine learning servers and services, including the following:  
   - AWS ML AMI for EC2
   - AWS SageMaker
+  - MxNet on Databricks AWS
   - AWS EMR
 
 NOTES on the examples:
    - All are set to run in the 'us-east-1' AWS availability zone (AZ).
    - All were prepared on an OSX laptop.
+   - Machine Learning 'Hello World' example is 'mnist' (the 10 handwritten digits)
