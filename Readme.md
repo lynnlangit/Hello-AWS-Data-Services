@@ -1,8 +1,6 @@
-# Hello AWS Data Services
-
 ![AWS Data Services](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/aws-data-services.png)
 
-This is a set of scripts and instructions designed to help you quickly set up and load key AWS data services for demo and learning purposes.  Uses Navicat client (14-day free trial) for RDS and Redshift.  Uses SSH to connect to EMR.  Includes the following:  
+This is a set of scripts and instructions designed to help you quickly set up and load key AWS data services for demo and learning purposes.  The goal is to get a 'Hello World' implementation set up quickly. These samples use the Navicat client (14-day free trial) for RDS and Redshift.  Uses SSH to connect to EMR.  Includes the following:  
   - AWS RDS MySQL
   - AWS Redshift
   - AWS EMR with Spark
@@ -17,7 +15,7 @@ Includes simple scripts as follows:
 Includes information about using machine learning servers and services, including the following:  
   - AWS Machine Learning AMI for EC2
   - AWS SageMaker
-  - MxNet on Databricks AWS
+  - MxNet on Databricks using AWS
   - AWS EMR with Spark ML
 
 NOTES on the examples:
