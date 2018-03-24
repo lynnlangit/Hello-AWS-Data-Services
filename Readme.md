@@ -1,6 +1,6 @@
 # Hello AWS Data Services
 
-![AWS Data Services](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/Images/aws-data-services.png)
+![AWS Data Services](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/aws-data-services.png)
 
 This is a set of scripts and instructions designed to help you quickly set up and load key AWS data services for demo and learning purposes.  Uses Navicat client (14-day free trial) for RDS and Redshift.  Uses SSH to connect to EMR.  Includes the following:  
   - AWS RDS MySQL
