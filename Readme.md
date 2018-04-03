@@ -19,6 +19,6 @@ Includes information about using machine learning servers and services, includin
   - AWS EMR with Spark ML
 
 NOTES on the examples:
-   - All are set to run in the 'us-east-1' AWS availability zone (AZ).
+   - All are set to run in the 'us-east-1' AWS region.
    - All were prepared on an OSX laptop.
    - Machine Learning 'Hello World' example is 'mnist' (the 10 handwritten digits)
