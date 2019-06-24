@@ -1,5 +1,8 @@
-# 1. Create a bucket - bucketname must be globally unique
+# 1a. Create a bucket - bucketname must be globally unique
 aws s3 mb <my-unique-bucket-name>
+
+# 1b. Tag a bucket
+aws s3api put-bucket-tagging --bucket <my-unique-bucket-name> --tagging file://tagging.json
 
 # 2. Verify bucket was created by listing all buckets
 aws s3 ls
