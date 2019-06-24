@@ -1,5 +1,5 @@
 # 1a. Create a bucket - bucketname must be globally unique
-aws s3 mb <my-unique-bucket-name>
+aws s3 mb s3://<my-unique-bucket-name>
 
 # 1b. Tag a bucket
 aws s3api put-bucket-tagging --bucket <my-unique-bucket-name> --tagging file://tagging.json
