@@ -2,7 +2,7 @@
 
 - Use 's3.sh' with aws cli  (can use 'tagging.json' to add bucket tags)  
 - Use 'make_bucket.template' as an AWS CF template (NOTE: does NOT delete bucket)
-- Use 'make_bucket.tf' AFTER verifying Terraform installation
+- Edit 'make_bucket.tf' to add unigue bucket name
     - install Terraform and verify - https://learn.hashicorp.com/terraform/getting-started/install
     - run 'terraform init'
     - run 'terraform plan' (first time only), then 'terraform apply'
