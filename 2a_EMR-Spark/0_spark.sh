@@ -3,6 +3,7 @@
 
 # 1. Create a basic EMR cluster, associate the cluster with your new key pair
 # Set security group rule for SSH to allow your machine's IP address to connect to EMR master
+# Select option 4 to install Spark (and other libraries) --OR-- select Spark in advanced install page
 
 # 3. Prepare to connect 
 # Open terminal
