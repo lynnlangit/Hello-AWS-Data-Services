@@ -22,3 +22,7 @@ NOTES on the examples:
    - All are set to run in the 'us-east-1' AWS region.
    - All were prepared on an OSX laptop.
    - Machine Learning 'Hello World' example is 'mnist' (the 10 handwritten digits)
+
+I have a large number of cloud and data courses on LinkedIn Learning.  Below is a summary chart of my most popular courses for AWS Data topics.  Just search on the course title (or my name) on LinkedIn Learning to view these courses.
+
+![AWS top courses](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/top.png)
