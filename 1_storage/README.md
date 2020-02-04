@@ -1,4 +1,4 @@
-# AWS Streaming and IoT
+# AWS Storage
 
 Key Links
-- Main AWS IoT blog at https://aws.amazon.com/blogs/iot/
+- Main AWS Storage blog at https://aws.amazon.com/blogs/storage/
