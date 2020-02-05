@@ -1,0 +1,1 @@
+SELECT * FROM "default"."elb_logs" limit 10;
