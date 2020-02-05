@@ -35,11 +35,6 @@ sudo pip install --upgrade aws-shell
 # Fixing install issues with homebrew
 # If symbolic links fail, install as 'sudo'
 # Fix symbolic links
-
-
-
-
-
  
 
 
