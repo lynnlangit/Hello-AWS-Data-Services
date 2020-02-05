@@ -1,4 +1,4 @@
-![AWS Data Services](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/aws-data-services.png)
+![AWS Data Services and Machine Learning](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/aws-data-services.png)
 
 ## AWS Data Services
 
