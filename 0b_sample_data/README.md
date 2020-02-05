@@ -1,6 +1,6 @@
 # Sample Datasets 
 
-I've included a couple of sample datasets in this folder.  Also, some samples are in the folder with the scripts for the AWS service, i.e. RDS sample data in the `database-and-analytics` folder.
+I've included a couple of sample datasets in this folder.  Also, some samples are in the folder with the scripts for the AWS service, i.e. RDS sample data in the `database-and-analytics` folder in this Repo.
 
 Additionally, several of my other learning GitHub Repos include sample data sets.
 These include the following:
