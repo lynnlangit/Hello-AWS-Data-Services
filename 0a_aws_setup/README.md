@@ -3,6 +3,7 @@
 For study
 - Use AWS WebUI / console
     - Create dedicated AWS account, login to AWS Web UI
+    - Create AWS Budget (and alert) for your daily service spending limit
     - (Optional) create non-root IAM user and login with those user credentials
     - (Optional) add MFA (multi-factor authentication) to user account 
 
@@ -17,5 +18,7 @@ For study
     - Download the AWS SDK for your language
 
 - Use 3rd party client
-    - For SQL - can use MySQLWorkbench (for RDS)
+    - For RDS SQL 
+        - can use MySQLWorkbench (for RDS Aroura, MySQL)
+        - can use SQLOperationsStudio (for RDS SQL Server)
     - For multiple database - can use trial version of Navicat
