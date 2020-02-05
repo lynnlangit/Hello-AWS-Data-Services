@@ -4,10 +4,15 @@
 
 This is a set of scripts and instructions designed to help you quickly set up and load key AWS data services for demo and learning purposes.  The goal is to get a 'Hello World' implementation set up quickly. These samples use the Navicat client (14-day free trial) for RDS and Redshift.  I recommend using the now-available Jupyter Notebook to quickly connect to EMR.  Samples include the following AWS Data Services:  
   - AWS RDS Aurora and MySQL
+    - Creates, load and SQL queries for **Northwind** database tables
   - AWS Redshift and Redshift Spectrum
+    - Creates, loads and SQL DW queries for **Customers star schema** source database tables
   - AWS EMR with Spark
+    - Creates and run test **CalcPi** PySpark job on cluster
   - AWS Athena
+    - Creates, loads and SQL queries for **ElbLogs** (AWS sample) using service
   - AWS DynamoDB
+    - Creates, adds and NoSQL query for **Music** JSON data into table
   - AWS Kinesis, including Kinesis Analytics
  
 Includes simple scripts as follows:
@@ -25,7 +30,7 @@ Includes information about using machine learning servers and services, includin
 NOTES on the examples:
    - All are set to run in the 'us-east-1' AWS region.
    - All were prepared on an OSX laptop.
-   - Machine Learning 'Hello World' example is 'mnist' (the 10 handwritten digits)
+   - Machine Learning 'Hello World' example is `mnist` (probablistic image classification -> into 10 classes using images of handwritten digits)
 
 ---
 
