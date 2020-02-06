@@ -1,7 +1,26 @@
 # Verify Python version in terminal
 python --version
 
-# Verify pip -OR- homebrew  -- do NOT use 'sudo pip install awscli'
+# If using pip
+
+# To install pip
+sudo easy_install pip
+# To install awscli with pip
+pip install awscli
+# To update your BASH profile
+ls -d ~/Library/Pyhton/*/bin/aws
+# Result will look something like this
+/Users/lynnlangit/Library/Python/2.7/bin/aws
+# Add line to your .bashrc
+export PATH=$HOME/Library/Python/2.7/bin:$PATH
+# in terminal, type `nano .bash_profile`
+# copy the PATH statement above
+# save `ctrl+o` and hit `return`, then `ctrl+x` to exit
+# update from terminal window `source .bash_profile`
+
+----
+
+# If using homebrew  -- do NOT use 'sudo pip install awscli'
 # **Prefer using homebrew to using pip!** if problem see end of this file
 # http://www.chrisjmendez.com/2017/02/18/aws-installing-aws-client-using-homebrew/
 brew update && brew doctor
