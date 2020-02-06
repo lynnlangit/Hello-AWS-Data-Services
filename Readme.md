@@ -2,18 +2,25 @@
 
 ## AWS Data Services
 
-This is a set of scripts and instructions designed to help you quickly set up and load key AWS data services for demo and learning purposes.  The goal is to get a 'Hello World' implementation set up quickly. These samples use the Navicat client (14-day free trial) for RDS and Redshift.  I recommend using the now-available Jupyter Notebook to quickly connect to EMR.  Samples include the following AWS Data Services:  
-  - AWS RDS Aurora and MySQL
+This is a set of scripts and instructions designed to help you quickly set up and load key AWS data services for demo and learning purposes.  The goal is to get a 'Hello World' implementation set up quickly. These samples use the AWS Query Editors for RDS and Redshift.  I recommend using the now-available Jupyter Notebook to quickly connect to EMR.  Samples include the following AWS Data Services:  
+  - **AWS RDS Aurora and MySQL**
     - Creates, load and SQL queries for **Northwind** database tables
-  - AWS Redshift and Redshift Spectrum
+    - For RDS Aurora Serverless use AWS RDS Query Editor
+  - **AWS Redshift and Redshift Spectrum**
     - Creates, loads and SQL DW queries for **Customers star schema** source database tables
-  - AWS EMR with Spark
+    - use AWS Redshift Query Editor
+  - **AWS EMR with Spark**
     - Creates and run test **CalcPi** PySpark job on cluster
-  - AWS Athena
+    - use AWS EMR Jupyter Notebook
+  - **AWS Athena**
     - Creates, loads and SQL queries for **ElbLogs** (AWS sample) using service
-  - AWS DynamoDB
+    - use AWS Athena Console
+  - **AWS DynamoDB**
     - Creates, adds and NoSQL query for **Music** JSON data into table
-  - AWS Kinesis, including Kinesis Analytics
+    - use AWS DynamoDB console
+  - **AWS Kinesis**
+    - including Kinesis Analytics
+    - use AWS Kinesis console
  
 Includes simple scripts as follows:
    - awscli scripts 
