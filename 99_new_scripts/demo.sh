@@ -1,3 +1,0 @@
-working area
-
-next script

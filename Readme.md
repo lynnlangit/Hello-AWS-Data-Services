@@ -21,11 +21,11 @@ Includes simple scripts as follows:
   
 ## AWS Machine Learning 
 
-Includes information about using machine learning servers and services, including the following:  
-  - AWS Machine Learning AMI for EC2
+Includes information about using machine learning servers and cloud services, including the following:  
+  - AWS EC2 custom AMI for Machine Learning 
   - AWS SageMaker
-  - MxNet on Databricks using AWS
-  - AWS EMR with Spark ML
+  - Databricks (Managed Spark) on AWS showing ML MxNet
+  - AWS EMR Spark with SparkML
 
 NOTES on the examples:
    - All are set to run in the 'us-east-1' AWS region.
