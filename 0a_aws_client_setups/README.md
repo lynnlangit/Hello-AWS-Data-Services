@@ -24,6 +24,12 @@ For study
 - Use AWS SDK
     - Select your language, i.e. node, Python, etc...
     - Download the AWS SDK for your language - for node -- https://aws.amazon.com/sdk-for-node-js/
+    - (Optional) if using VSCode, there are a number of useful AWS add-ins
+        - use `aws cli configure` for quick configuration of login credentials
+        = use `aws-cloudformation-yaml` to lint CF templates
+        - use `VSCode Terraform AWS` to link TF templates, also `Terraform Autocomplete`
+        - use `Stackery Serverless Tools` to draw executable infrastructure
+        - use `AWS Amplify API` to add Amplify API code snippets
     - (Alternate) create an AWS Cloud9 IDE instance -- https://aws.amazon.com/cloud9/
 
 - Use 3rd party client
