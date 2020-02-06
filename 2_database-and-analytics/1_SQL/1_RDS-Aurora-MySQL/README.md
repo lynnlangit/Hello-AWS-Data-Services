@@ -1,6 +1,6 @@
 # About AWS Redshift
 
-## Use AWS RDS Aurora Serverless Query Editos
+## Use AWS RDS Aurora Serverless Query Editor
 
 Setup your Database with these settings
 - creation -> standard create
