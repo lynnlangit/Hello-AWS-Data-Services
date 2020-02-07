@@ -2,8 +2,8 @@
 # 1. Create Kinesis data stream 'demo-data' with 2 shards
 
 # set up firehose delivery stream
-# 2. Createa Firehose delivery stream 'demo-delivery', select 'demo-data' as source,
-#         select desintation as S3, create new bucket, create IAM role
+# 2. Create a Firehose delivery stream 'demo-delivery', select 'demo-data' as source,
+#         select destination as S3, create new bucket, create IAM role
 
 # set up application
 # 3. Create Kinesis application 'demo-app', connect to source 'demo-data',
