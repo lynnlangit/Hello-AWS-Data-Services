@@ -8,6 +8,13 @@ Key Links
 - Main AWS Analytics blog at https://aws.amazon.com/blogs/big-data/
 - Main AWS Architecture blog at https://aws.amazon.com/blogs/architecture/
 
+## TLS Encryption
+
+    - Enabled by default, to create an unencrypted cluster
+        - create a new parameter group named `noTLS`
+        - updated the TLS setting to `disabled`
+        - create a DocumentDB cluster using the `noTLS` custom parameter group
+
 ## Client
 
 - can use MongoDB Compass - download from https://www.mongodb.com/download-center/compass
