@@ -2,4 +2,4 @@
 
 - Choose Memcached or Redis
 - Use for large, in-memory lookups
-- No persistance, in-memory only
+- No on disk persistence, in-memory only -- use Redis if that is your business need
