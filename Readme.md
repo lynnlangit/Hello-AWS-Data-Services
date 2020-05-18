@@ -2,7 +2,7 @@
 
 ## AWS Data Services
 
-This is a set of scripts and instructions designed to help you quickly set up and load key AWS data services for demo and learning purposes.  The goal is to get a 'Hello World' implementation set up quickly. These samples use the AWS Query Editors for RDS and Redshift.  I recommend using the now-available Jupyter Notebook to quickly connect to EMR.  Samples include the following AWS Data Services:  
+This is a set of scripts and instructions designed to help you quickly set up and load key AWS data services for demo and learning purposes.  The goal is to get a 'Hello World' implementation set up quickly. These samples use the AWS Query Editors for RDS and Redshift.  I recommend using the included Jupyter Notebook to quickly connect to EMR.  Samples include the following AWS Data Services:  
   - **AWS RDS Aurora and MySQL**
     - Creates, load and SQL queries for **Northwind** database tables
     - For RDS Aurora Serverless use AWS RDS Query Editor
