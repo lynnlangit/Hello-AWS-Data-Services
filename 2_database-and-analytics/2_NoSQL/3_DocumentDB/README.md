@@ -1,4 +1,4 @@
-# AWS Database
+# AWS DocumentDB
 
 ![AWS DocumentDB](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/documentdb.png)
 
