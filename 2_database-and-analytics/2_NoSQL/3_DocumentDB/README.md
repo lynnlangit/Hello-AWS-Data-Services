@@ -11,9 +11,9 @@ Key Links
 ## TLS Encryption
 
 - Enabled by default, to create an unencrypted cluster
-        - create a new parameter group named `noTLS`
-        - updated the TLS setting to `disabled`
-        - create a DocumentDB cluster using the `noTLS` custom parameter group
+    - create a new parameter group named `noTLS`
+    - updated the TLS setting to `disabled`
+    - create a DocumentDB cluster using the `noTLS` custom parameter group
 
 ## Client
 
