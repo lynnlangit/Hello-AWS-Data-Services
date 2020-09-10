@@ -5,4 +5,4 @@ Topics
 
 ## Dev.to post
 
-![AWS Braket Quick test](https://dev.to/aws-heroes/aws-braket-trying-out-quantum-cloud-computing-35ad)
+[AWS Braket Quick test](https://dev.to/aws-heroes/aws-braket-trying-out-quantum-cloud-computing-35ad)
