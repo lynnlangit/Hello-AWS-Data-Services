@@ -42,7 +42,6 @@ NOTES on the examples:
 ## Learn More
 
 - **AWS Cost Control** - course on LinkedIn Learning and companion GitHub Repo at [link](https://github.com/lynnlangit/aws-cost-control)
-
-I have a large number of cloud and data courses on LinkedIn Learning.  Below is a summary chart of my most popular courses for AWS Data topics.  Just search on the course title (or my name) on the [LinkedIn Learning site](https://www.linkedin.com/learning/search?entityType=COURSE&keywords=lynn%20langit) to view these courses.
+ - More courses - I have a large number of cloud and data courses on LinkedIn Learning.  Below is a summary chart of my most popular courses for AWS Data topics.  Just search on the course title (or my name) on the [LinkedIn Learning site](https://www.linkedin.com/learning/search?entityType=COURSE&keywords=lynn%20langit) to view these courses.
 
 ![AWS top courses](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/top.png)
