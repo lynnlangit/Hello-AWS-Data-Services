@@ -1,5 +1,7 @@
 ![AWS Data Services and Machine Learning](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/aws-data-services.png)
 
+This Repo is a companion to my LinkedIn Learning course 'AWS Data Services' - [link](https://www.linkedin.com/learning/amazon-web-services-data-services-2)
+
 ## AWS Data Services
 
 This is a set of scripts and instructions designed to help you quickly set up and load key AWS data services for demo and learning purposes.  The goal is to get a 'Hello World' implementation set up quickly. These samples use the AWS Query Editors for RDS and Redshift.  I recommend using the included Jupyter Notebook to quickly connect to EMR.  Samples include the following AWS Data Services:  
