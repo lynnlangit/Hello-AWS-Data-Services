@@ -1,8 +1,9 @@
 # DataOps (DevOps for Data)
 
-Topics
+Topics and Links
 - CI - Continuous Integration
 - CD - Continuous Delivery
+- Talk "The Zen of DataOps for AWS" -[link](https://www.youtube.com/watch?v=KvGsyKtNEAk)
 
 ## Architecture Example
 
