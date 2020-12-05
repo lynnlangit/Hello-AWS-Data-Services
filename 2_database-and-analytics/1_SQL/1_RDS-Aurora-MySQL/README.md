@@ -20,3 +20,5 @@ Connect to RDS Query Editor
 ## Aurora PostgreSQL Example
 
 From the AWS Quickstarts - [here](https://aws.amazon.com/quickstart/architecture/aurora-postgresql/)
+
+![Aurora-postgreSQL](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/aurora-postgresql.png)
