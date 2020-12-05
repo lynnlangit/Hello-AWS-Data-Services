@@ -1,4 +1,4 @@
-# About AWS Redshift
+# About AWS Aurora
 
 ## Use AWS RDS Aurora Serverless Query Editor
 
@@ -15,3 +15,8 @@ Wait for create to be `ready`, then `Modify`
 
 Connect to RDS Query Editor
 - query editor window will open
+
+---
+## Aurora PostgreSQL Example
+
+From the AWS Quickstarts - [here](https://aws.amazon.com/quickstart/architecture/aurora-postgresql/)
