@@ -11,7 +11,7 @@ The graphic below outlines the differences.  Of note, is that AWS is adding serv
 
 ## for RDS - pick your DB engine
 
-There are two cateogories - open source or commercial (the latter requires a commercial DB license).  Research the features and select the DB platform based on your application's needs. The list below summarizes these choices:
+There are two cateogories of relational database engines for RDS - open source or commercial (the latter requires a commercial DB license).  Research the features and select the DB platform based on your application's needs. The list below summarizes these choices:
 
 - Open Source
   - **Amazon Aurora** - built for cloud
