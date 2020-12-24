@@ -8,6 +8,12 @@ For study
     - Create AWS Budget (and alert) for your daily service spending limit
     - (Optional) create non-root IAM user and login with those user credentials
     - (Optional) add MFA (multi-factor authentication) to user account 
+    
+ - Use AWS cloud shell
+    - AWS CloudShell is a browser-based shell that makes it easy to securely manage, explore, and interact with your AWS resources using the AWS CLI or SDKs
+    - CloudShell is pre-authenticated with your console credentials
+    - Common development and operations tools are pre-installed, so no local installation or configuration is required, you can install your own tools as well
+    - Includes 1 GB of persistent storage per Region (store scripts, files, configuration preferences, and additional tools in your home directory)
 
 ## Tools for Scripts and Code
 
