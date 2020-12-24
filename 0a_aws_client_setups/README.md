@@ -14,6 +14,7 @@ For study
     - CloudShell is pre-authenticated with your console credentials
     - Common development and operations tools are [pre-installed](https://docs.aws.amazon.com/cloudshell/latest/userguide/vm-specs.html), so no local installation or configuration is required, you can install your own tools as well
     - Includes 1 GB of persistent storage per Region (store scripts, files, configuration preferences, and additional tools in your home directory)
+    - Cloud Shell Quick Tips -[link](https://dev.to/lynnlangit/aws-cloud-shell-quick-tips-1n5o)
     
 ---
 
