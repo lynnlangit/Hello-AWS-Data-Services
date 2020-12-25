@@ -1,5 +1,7 @@
 # AWS Machine Learning
 
+## My Courses
+
 I have created courses and other content so that you can learn AWS Machine Learning.  Also I've included links to other top quality learning content here.
 - My **LinkedIn Learning course** `AWS ML Essentials` - [link](https://www.linkedin.com/learning/amazon-web-services-machine-learning-essential-training)
 - Main **AWS ML blog** at https://aws.amazon.com/blogs/machine-learning/
@@ -8,3 +10,7 @@ I have created courses and other content so that you can learn AWS Machine Learn
 
 ![Sagemaker Examples](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/sagemaker-examples.png)
 
+---
+
+## Learn ML Foundations
+- Course 'homemade-machine-learning' - create course w/Jupyter notebook examples which explains and demos key ML algorithms in Python - [link](https://github.com/trekhleb/homemade-machine-learning)
