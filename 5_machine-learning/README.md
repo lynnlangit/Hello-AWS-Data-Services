@@ -1,5 +1,11 @@
 # AWS Machine Learning
 
+## ML Choices
+
+Chart below for reference
+
+<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/AWS%20ML%20chart.png" width=800>
+
 ## My Courses
 
 I have created courses and other content so that you can learn AWS Machine Learning.  Also I've included links to other top quality learning content here.
