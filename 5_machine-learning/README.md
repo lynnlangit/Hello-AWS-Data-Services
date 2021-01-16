@@ -2,7 +2,7 @@
 
 ## ML Choices
 
-Chart below for reference
+Chart below for reference, grouped by SaaS, PaaS and IaaS for AWS Machine Learning services categories.
 
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/AWS%20ML%20chart.png" width=800>
 
