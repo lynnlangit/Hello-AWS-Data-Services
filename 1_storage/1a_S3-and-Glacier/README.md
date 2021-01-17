@@ -1,3 +1,7 @@
+## AWS S3 and Glacier
+
+For more information which compares capabilities for all AWS storage service options, see this page - xxx
+
 ### Use these S3 scripts
 
 - Use 's3.sh' with aws cli  (can use 'tagging.json' to add bucket tags)  
