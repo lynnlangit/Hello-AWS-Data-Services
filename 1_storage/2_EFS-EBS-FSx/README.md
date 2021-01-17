@@ -5,6 +5,9 @@ Info updated and originally from this article - https://dzone.com/articles/confu
 ## Core Storage Options
 
 AWS includes a number of file storage options services.  These include S3, EBS, EFS and more.  Details and comparison chart below.  
+
+<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/s3-to-glacier.png" width=600>
+
 ### Amazon S3 (Simple Object Storage) and Glacier
 - provides simple object storage and file archiving (the latter using the AWS Glacier service) using buckets w/unique names
 - Use cases: hosting website images and videos, data analytics, and both mobile and web applications
