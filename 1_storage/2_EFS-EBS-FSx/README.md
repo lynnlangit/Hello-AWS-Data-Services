@@ -11,9 +11,8 @@ AWS includes a number of file storage options services.  These include S3, EBS, 
 #### Amazon S3 (Simple Object Storage) and Glacier
 - provides simple object storage and file archiving (the latter using the AWS Glacier service) using buckets w/unique names
 - Use cases: hosting website images and videos, data analytics, and both mobile and web applications
-- Object storage manages data as objects (data types are stored in their native formats)
-- There is no hierarchy of relations between files with object storage — data objects can be distributed across several machines
-- You can access the S3 service from anywhere on the internet depending on IAM permissions (can be public)
+- S3 manages data as objects (data types are stored in their native formats)
+- Access the S3 service from anywhere on the internet depending on IAM permissions (can be public)
 - Learn more about Amazon S3 [common operations on objects and buckets](https://docs.aws.amazon.com/AmazonS3/latest/dev/using-with-s3-actions.html)
 
 #### AWS EBS (Elastic Block Storage) 
@@ -35,10 +34,11 @@ AWS includes a number of file storage options services.  These include S3, EBS, 
 - FSx for Windows is a managed Windows Servers that runs Windows SMB-based file services
 - FSx uses file systems and backups and uses the Volume Shadow Copy Service (VSS) in Microsoft Windows
 - Learn more about FSx [common operation on file systems](https://docs.aws.amazon.com/fsx/latest/WindowsGuide/using-file-shares.html)
+- Quick Start FSx [tutorial](https://aws.amazon.com/quickstart/architecture/amazon-fsx-windows-file-server/)
 
 #### AWS Storage Gateway 
 
-<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/storage-gateway.png" width=600>
+<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/storage-gateway.png" width=800>
 
 - provides seamless and secure integration between an organization's on-premises IT environment and AWS's storage infrastructure
 - Use cases: cloud-busting, backup/archive, tiered storage
