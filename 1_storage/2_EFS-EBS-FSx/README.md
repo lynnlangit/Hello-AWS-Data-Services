@@ -19,8 +19,8 @@ AWS includes a number of file storage options services.  These include S3, EBS, 
 #### AWS EBS (Elastic Block Storage) 
 - provides persistent block-level data storage as a volume mounted to one EC2 VM instance
 - Use cases: business continuity, software testing, and database management
-- Block storage stores files in multiple volumes called blocks, which act as separate hard drives
-- block storage devices are more flexible and offer higher performance than regular file storage
+- EBS stores files in multiple volumes called blocks, which act as separate hard drives
+- EBS devices are more flexible and offer higher performance than regular file storage
 - Learn more about EBS [common operations on volumes](https://cloud.netapp.com/blog/ebs-volumes-5-lesser-known-functions#5less-known)
 
 #### AWS EFS (Elastic File Storage)
@@ -29,19 +29,14 @@ AWS includes a number of file storage options services.  These include S3, EBS, 
 - EFS is a managed NAS filer based on NFS v4, with data organized into directories and subdirectories
 - Learn more about EFS [common operation on file systems](https://docs.aws.amazon.com/efs/latest/ug/wt1-getting-started.html) 
 
-#### AWS FSx for Lustre (Windows)
-- provides shared, elastic file storage system that grows and shrinks as you add and remove files
-- Use cases: xxx
+#### Amazon FSx for Lustre (for Windows)
+- provides shared, elastic file storage system as a file system mounted to EC2 Windows-based VM instances
+- Use cases: Windows file system workloads
 - FSx for Windows is a managed Windows Servers that runs Windows SMB-based file services
-EFS is useful for SaaS applications and content management systems
-- You can mount EFS onto several EC2 instances at the same time
-- Learn how to create an EFS file system and mount it on an EC2 instance.
+- FSx uses file systems and backups and uses the Volume Shadow Copy Service (VSS) in Microsoft Windows
+- Learn more about FSx [common operation on file systems](https://docs.aws.amazon.com/fsx/latest/WindowsGuide/using-file-shares.html)
 
-
-#### AWS Storage Gateway (xxx)
-- provides shared, elastic file storage system that grows and shrinks as you add and remove files
-- Use cases: xxx
-- It offers a traditional file storage paradigm, with data organized into directories and subdirectories
-EFS is useful for SaaS applications and content management systems
-- You can mount EFS onto several EC2 instances at the same time
-- Learn how to create an EFS file system and mount it on an EC2 instance.
+#### AWS Storage Gateway 
+- provides seamless and secure integration between an organization's on-premises IT environment and AWS's storage infrastructure
+- Use cases: cloud-busting, backup/archive, tiered storage
+- Learn more about Storage Gateway [common operations on file systems](https://docs.aws.amazon.com/storagegateway/latest/userguide/StorageGatewayConcepts.html)
