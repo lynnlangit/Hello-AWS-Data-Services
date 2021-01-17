@@ -1,6 +1,6 @@
 ## AWS S3 and Glacier
 
-For more information which compares capabilities for all AWS storage service options, see this page - xxx
+For more information which compares capabilities for all AWS storage service options, see this [page](https://github.com/lynnlangit/Hello-AWS-Data-Services/tree/master/1_storage/2_EFS-EBS-FSx)
 
 ### Use these S3 scripts
 
