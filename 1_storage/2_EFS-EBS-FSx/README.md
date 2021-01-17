@@ -2,7 +2,7 @@
 
 Info updated and originally from this article - https://dzone.com/articles/confused-by-aws-storage-options-s3-ebs-amp-efs-explained 
 
-# Storage Options
+## Core Storage Options
 
 AWS includes a number of file storage options services.  These include S3, EBS, EFS and more.  Details and comparison chart below.  
 ### Amazon S3 (Simple Object Storage) and Glacier
@@ -27,6 +27,8 @@ AWS includes a number of file storage options services.  These include S3, EBS, 
 
 ---
 
+## Other Storage Service
+
 ### Amazon FSx for Lustre (for Windows)
 - provides shared, elastic file storage system as a file system mounted to EC2 Windows-based VM instances
 - Use cases: Windows file system workloads
@@ -37,8 +39,9 @@ AWS includes a number of file storage options services.  These include S3, EBS, 
 
 ### AWS Storage Gateway 
 
-<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/storage-gateway.png" width=800>
-
 - provides seamless and secure integration between an organization's on-premises IT environment and AWS's storage infrastructure
 - Use cases: cloud-busting, backup/archive, tiered storage
 - Learn more about Storage Gateway [common operations on file systems](https://docs.aws.amazon.com/storagegateway/latest/userguide/StorageGatewayConcepts.html)
+
+<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/storage-gateway.png" width=800>
+
