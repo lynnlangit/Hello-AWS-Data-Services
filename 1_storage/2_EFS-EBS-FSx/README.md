@@ -37,6 +37,9 @@ AWS includes a number of file storage options services.  These include S3, EBS, 
 - Learn more about FSx [common operation on file systems](https://docs.aws.amazon.com/fsx/latest/WindowsGuide/using-file-shares.html)
 
 #### AWS Storage Gateway 
+
+<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/storage-gateway.png" width=600>
+
 - provides seamless and secure integration between an organization's on-premises IT environment and AWS's storage infrastructure
 - Use cases: cloud-busting, backup/archive, tiered storage
 - Learn more about Storage Gateway [common operations on file systems](https://docs.aws.amazon.com/storagegateway/latest/userguide/StorageGatewayConcepts.html)
