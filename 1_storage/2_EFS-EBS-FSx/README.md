@@ -1,10 +1,12 @@
-### AWS Storage Options Compared
+## AWS Storage Options Compared
 
-From this article - https://dzone.com/articles/confused-by-aws-storage-options-s3-ebs-amp-efs-explained - updated for this post. 
+Info updated and originally from this article - https://dzone.com/articles/confused-by-aws-storage-options-s3-ebs-amp-efs-explained 
 
 ### Storage Options
 
-AWS includes a number of file storage options services.  These include S3, EBS, EFS and more.  Details below.  
+AWS includes a number of file storage options services.  These include S3, EBS, EFS and more.  Details and comparison chart below.  
+
+<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/storage-comparison.png" width=800>
 
 #### Amazon S3 (Simple Object Storage) and Glacier
 - provides simple object storage and file archiving (the latter using the AWS Glacier service) using buckets w/unique names
