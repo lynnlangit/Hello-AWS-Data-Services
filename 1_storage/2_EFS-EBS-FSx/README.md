@@ -8,8 +8,8 @@ AWS includes a number of file storage options services.  These include S3, EBS, 
 ### Amazon S3 (Simple Object Storage) and Glacier
 - provides simple object storage and file archiving (the latter using the AWS Glacier service) using buckets w/unique names
 - Use cases: hosting website images and videos, data analytics, and both mobile and web applications
-- S3 manages data as objects (data types are stored in their native formats)
-- Access the S3 service from anywhere on the internet depending on IAM permissions (can be public)
+- S3 manages data as objects, access the S3 service from anywhere on the internet depending on IAM permissions (can be public)
+- S3 storage classes impact latency and cost - [more](https://aws.amazon.com/s3/storage-classes)
 - Learn more about Amazon S3 [common operations on objects and buckets](https://docs.aws.amazon.com/AmazonS3/latest/dev/using-with-s3-actions.html)
 ### AWS EBS (Elastic Block Storage) 
 - provides persistent block-level data storage as a volume mounted to one EC2 VM instance
