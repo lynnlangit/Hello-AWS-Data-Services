@@ -26,15 +26,17 @@ AWS includes a number of file storage options services.  These include S3, EBS, 
 #### AWS EFS (Elastic File Storage)
 - provides shared, elastic file storage system (grows/shrinks as you add/remove files) as a file system mounted to EC2 VM instances
 - Use cases: SaaS applications and content management systems
-- It offers a traditional file storage paradigm, with data organized into directories and subdirectories
+- EFS is a managed NAS filer based on NFS v4, with data organized into directories and subdirectories
 - Learn more about EFS [common operation on file systems](https://docs.aws.amazon.com/efs/latest/ug/wt1-getting-started.html) 
-#### AWS FSx (xxx)
+
+#### AWS FSx for Lustre (Windows)
 - provides shared, elastic file storage system that grows and shrinks as you add and remove files
 - Use cases: xxx
-- It offers a traditional file storage paradigm, with data organized into directories and subdirectories
+- FSx for Windows is a managed Windows Servers that runs Windows SMB-based file services
 EFS is useful for SaaS applications and content management systems
 - You can mount EFS onto several EC2 instances at the same time
 - Learn how to create an EFS file system and mount it on an EC2 instance.
+
 
 #### AWS Storage Gateway (xxx)
 - provides shared, elastic file storage system that grows and shrinks as you add and remove files
