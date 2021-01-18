@@ -88,7 +88,7 @@ As part of the example solution (architecture shown below), the following servic
 - Use the Offline Store can be used for training and batch inference.
 
 #### SageMaker Autopilot & Jumpstart
-- Create classification and regression models quickly and easily
+- Create classification (binary or multi-class) or regression models quickly and easily
 - Use the AutoML estimator from SageMaker Python SDK to invoke Autopilot to find the best ML pipeline to train a model on a dataset
 - Autopilot generated models can be configured to return probabilities of each inference
 - Currently Autopilot supports only tabular datasets in CSV format
