@@ -9,6 +9,19 @@ Shown below are the pipeline phases, which correspond to parts of the AWS SageMa
 ![SageMaker phases](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/sagemaker-phases.png)
 
 ---
+## Example SageMaker Architecture
+
+As part of the solution, the following services are used:
+
+- AWS Lambda: Used to generate a synthetic credits dataset and upload to Amazon S3.
+- AWS Glue: Used to crawl datasets, and transform the credits dataset using Apache Spark.
+- Amazon S3: Used to store datasets and the outputs of the AWS Glue Job.
+- Amazon SageMaker Notebook: Used to train the LightGBM model.
+- Amazon ECR: Used to store the custom Scikit-learn + LightGBM training environment.
+- Amazon SageMaker Endpoint: Used to deploy the trained model and SHAP explainer.
+- Amazon SageMaker Batch Transform: Used to compute explanations in batch.
+
+---
 
 ## SageMaker Services
 
