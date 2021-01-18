@@ -61,6 +61,7 @@ As part of the example solution (architecture shown below), the following servic
 #### SageMake Notebook Instances
 - Use simple Jupyter Notebook interface instances - lightweight
 - Use example Notebook configuration scripts - [link](https://github.com/aws-samples/amazon-sagemaker-notebook-instance-lifecycle-config-samples)
+- Can add elastic inference compute as well
 
 ---
 
