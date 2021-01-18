@@ -25,9 +25,9 @@ Shown below are the pipeline phases, which correspond to parts of the AWS SageMa
 - Can use Batch Transforms jobs for this type of task
 
 #### Training Jobs 
-- Create or reuse ML algorithms running in containers
-- Use hyperparameter training configurations
-- Can create hyperparameter tuning jobs 
+- Create or reuse exiting ML algorithms running in containers to create trained models
+- Reuse existing models from AWS Marketplace
+- Can create hyperparameter tuning jobs (w/ hypterparam configs)
 
 #### Inference Jobs
 - Can crate persistent endpoints using endpoint configurations
