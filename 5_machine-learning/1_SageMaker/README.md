@@ -1,7 +1,8 @@
-# AWS Sagemaker
+# Amazon Sagemaker
 
-SageMaker is a set of tools, designed to support machine learning workloads (pipelines) on AWS.  
-Link to SageMaker code samples on GitHub - [link](https://github.com/aws/amazon-sagemaker-examples).  
+- Amazon SageMaker is a fully-mamaged machine learning service.  
+- SageMake includes a set of tools, designed to support machine learning workloads (pipelines) on AWS.  
+- Link to SageMaker code samples on GitHub - [link](https://github.com/aws/amazon-sagemaker-examples).  
 
 Shown below are the pipeline phases, which correspond to parts of the AWS SageMaker service offerings.
 
