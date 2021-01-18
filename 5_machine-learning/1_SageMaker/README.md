@@ -46,15 +46,16 @@ As part of the example solution (architecture shown below), the following servic
 - Use high-quality training datasets by using workers along with machine learning to create labeled datasets
 - Supports image, text or custom analysis jobs
 
-#### Training Jobs 
-- Create or reuse ML algorithms running in containers
-- Use hyperparameter training configurations
-- Can create hyperparameter tuning jobs 
-
 #### Processing Jobs
 - Analyze, validate and process data in scalable, container-based job clusters
 - Tackle feature engineering
 - Interpret and evaluate models
+- Can be run as pre or post-processing jobs
+
+#### Training Jobs 
+- Create or reuse ML algorithms running in containers
+- Use hyperparameter training configurations
+- Can create hyperparameter tuning jobs 
 
 #### Batch Transform
 - Preprocess datasets
