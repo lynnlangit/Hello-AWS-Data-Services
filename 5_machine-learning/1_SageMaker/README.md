@@ -26,7 +26,7 @@ As part of the example solution (architecture shown below), the following servic
 
 ---
 
-## Jupyter Notebook Work Areas / Dev Env
+## Jupyter Notebook Dev Env
 
 #### SageMaker Studio Notebooks (and other services)
 - An integrated machine learning environment where you can build, train, deploy, and analyze your models all in the same application.
@@ -71,11 +71,9 @@ As part of the example solution (architecture shown below), the following servic
 - Improve your machine learning models by detecting potential bias and help explain the predictions that models make.
 - Example Notebook using Clarify - [link](https://github.com/aws/amazon-sagemaker-examples/blob/master/sagemaker_processing/fairness_and_explainability/fairness_and_explainability.ipynb)
 
-#### SageMaker Debugger
+#### SageMaker Debugger & Model Monitor
 - Inspect training parameters and data throughout the training process. 
 - Automatically detect and alert users to commonly occurring errors such as parameter values getting too large or small.
-
-#### SageMaker Model Monitor
 - Monitor and analyze models in production (endpoints) to detect data drift and deviations in model quality.
 
 ##### SageMaker Data Wrangler
@@ -95,14 +93,12 @@ As part of the example solution (architecture shown below), the following servic
 - Learn about SageMaker features and capabilities through curated 1-click solutions
 - Run example notebooks, and pretrained models that you can deploy. 
 
-#### SageMaker Experiments and Reinforcement Learning
+#### SageMaker Experiments, Reinforcement Learning & Augmented AI
 - Experiment management and tracking. 
 - Use the tracked data to reconstruct an experiment, 
 - Incrementally build on experiments conducted by peers
 - Trace model lineage for compliance and audit verifications.
 - Maximize the long-term reward that an agent receives as a result of its actions using RL
-
-#### Amazon Augmented AI
 - Build the workflows required for human review of ML predictions.
 - Supports image, text or custom analysis jobs
 
@@ -110,25 +106,19 @@ As part of the example solution (architecture shown below), the following servic
 
 ## Deployment Tools
 
-#### SageMaker Model Registry
+#### SageMaker Model Registry & Lineage Tracking
 - Versioning, artifact and lineage tracking, approval workflow, and cross account support for deployment of your machine learning models.
 - Use Amazon ECR to register model container images
+- Track the lineage of machine learning workflows.
 
 #### SageMaker Projects & Model Building Pipelines
 - Create end-to-end ML solutions with CI/CD by using SageMaker projects and Code Build
 - Create and manage machine learning pipelines integrated directly with SageMaker jobs.
 
-#### SageMaker ML Lineage Tracking
-- Track the lineage of machine learning workflows.
-
-#### SageMaker Edge Manager
+#### SageMaker Edge Manager, Neo & Elastic Inference
 - Optimize custom models for edge devices, create and manage fleets
 - Run models with an efficient runtime, and monitor each model on each device.
-
-#### SageMaker Neo
 - Train machine learning models once, then run anywhere in the cloud and at the edge.
-
-#### SageMaker Elastic Inference
 - Speed up the throughput and decrease the latency of getting real-time inferences.
 
 ---
