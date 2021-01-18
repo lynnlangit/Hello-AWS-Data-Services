@@ -115,9 +115,10 @@ As part of the example solution (architecture shown below), the following servic
 
 #### SageMaker Edge Manager, Neo & Elastic Inference
 - Optimize custom models for edge devices, create and manage fleets
-- Run models with an efficient runtime, and monitor each model on each device.
-- Train machine learning models once, then run anywhere in the cloud and at the edge.
-- Speed up the throughput and decrease the latency of getting real-time inferences.
+- Use the SageMaker Neo API to compile machine learning models to optimize them for your choice of hardware targets
+- Run models with an efficient runtime, and monitor each model on each device
+- Train machine learning models once, then run anywhere in the cloud and at the edge
+- Speed up the throughput and decrease the latency of getting real-time inferences
 
 ---
 
