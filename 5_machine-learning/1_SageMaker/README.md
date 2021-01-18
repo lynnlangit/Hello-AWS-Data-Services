@@ -15,6 +15,7 @@ Shown below are the pipeline phases, which correspond to parts of the AWS SageMa
 Amazon SageMaker includes many services (or features).  These services are categorized, listed and described below.
 
 ### Notebook Work Areas
+
 #### SageMaker Studio
 An integrated machine learning environment where you can build, train, deploy, and analyze your models all in the same application.
 #### SageMaker Studio Notebooks
@@ -22,6 +23,7 @@ The next generation of SageMaker notebooks that include AWS Single Sign-On (AWS 
 
 ---
 ### Model Management
+
 #### SageMaker Model Registry
 Versioning, artifact and lineage tracking, approval workflow, and cross account support for deployment of your machine learning models.
 
@@ -40,16 +42,33 @@ Import, analyze, prepare, and featurize data in SageMaker Studio. You can integr
 #### SageMaker Feature Store
 A centralized store for features and associated metadata so features can be easily discovered and reused. You can create two types of stores, an Online or Offline store. The Online Store can be used for low latency, real-time inference use cases and the Offline Store can be used for training and batch inference.
 
-### Examples and Tutorials
+---
 
-#### SageMaker JumpStart
-Learn about SageMaker features and capabilities through curated 1-click solutions, example notebooks, and pretrained models that you can deploy. You can also fine-tune the models and deploy them.
+### Developer Tools
 
 #### SageMaker Clarify
 Improve your machine learning models by detecting potential bias and help explain the predictions that models make.
 
+#### SageMaker Debugger
+Inspect training parameters and data throughout the training process. Automatically detect and alert users to commonly occurring errors such as parameter values getting too large or small.
+
+#### SageMaker Model Monitor
+Monitor and analyze models in production (endpoints) to detect data drift and deviations in model quality.
+
+---
+
+## Deployment Tools
+
 #### SageMaker Edge Manager
 Optimize custom models for edge devices, create and manage fleets, run models with an efficient runtime, and monitor each model on each device.
+
+#### SageMaker Neo
+Train machine learning models once, then run anywhere in the cloud and at the edge.
+
+#### SageMaker Elastic Inference
+Speed up the throughput and decrease the latency of getting real-time inferences.
+
+---
 
 ### Human and AI Work
 
@@ -59,28 +78,21 @@ High-quality training datasets by using workers along with machine learning to c
 #### Amazon Augmented AI
 Build the workflows required for human review of ML predictions. Amazon A2I brings human review to all developers, removing the undifferentiated heavy lifting associated with building human review systems or managing large numbers of human reviewers.
 
+---
 
-
-#### SageMaker Experiments
-Experiment management and tracking. You can use the tracked data to reconstruct an experiment, incrementally build on experiments conducted by peers, and trace model lineage for compliance and audit verifications.
-
-#### SageMaker Debugger
-Inspect training parameters and data throughout the training process. Automatically detect and alert users to commonly occurring errors such as parameter values getting too large or small.
+### Easy Model Creation
 
 #### SageMaker Autopilot
 Users without machine learning knowledge can quickly build classification and regression models.
 
-#### SageMaker Model Monitor
-Monitor and analyze models in production (endpoints) to detect data drift and deviations in model quality.
-
-#### SageMaker Neo
-Train machine learning models once, then run anywhere in the cloud and at the edge.
-
-#### SageMaker Elastic Inference
-Speed up the throughput and decrease the latency of getting real-time inferences.
+#### SageMaker JumpStart
+Learn about SageMaker features and capabilities through curated 1-click solutions, example notebooks, and pretrained models that you can deploy. You can also fine-tune the models and deploy them.
 
 #### Reinforcement Learning
 Maximize the long-term reward that an agent receives as a result of its actions.
+
+#### SageMaker Experiments
+Experiment management and tracking. You can use the tracked data to reconstruct an experiment, incrementally build on experiments conducted by peers, and trace model lineage for compliance and audit verifications.
 
 #### Preprocessing
 Analyze and preprocess data, tackle feature engineering, and evaluate models.
