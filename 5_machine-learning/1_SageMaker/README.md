@@ -112,6 +112,13 @@ Versioning, artifact and lineage tracking, approval workflow, and cross account 
 - Incrementally build on experiments conducted by peers
 - Trace model lineage for compliance and audit verifications.
 
+---
+
+#### Labeling Jobs
+- Use SageMaker Ground Truth to include humans in the process
+- Use high-quality training datasets by using workers along with machine learning to create labeled datasets
+- Supports image, text or custom analysis jobs
+
 #### Training Jobs 
 - Create or reuse ML algorithms running in containers
 - Use hyperparameter training configurations
@@ -128,11 +135,6 @@ Versioning, artifact and lineage tracking, approval workflow, and cross account 
 - Associate input records with inferences to assist the interpretation of results.
 
 ---
-
-### Human and AI Work
-
-#### SageMaker Ground Truth
-- Use high-quality training datasets by using workers along with machine learning to create labeled datasets.
 
 #### Amazon Augmented AI
 - Build the workflows required for human review of ML predictions.
