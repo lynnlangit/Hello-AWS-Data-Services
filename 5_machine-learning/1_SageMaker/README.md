@@ -70,6 +70,7 @@ Versioning, artifact and lineage tracking, approval workflow, and cross account 
 
 #### SageMaker Clarify
 - Improve your machine learning models by detecting potential bias and help explain the predictions that models make.
+- Example Notebook using Clarify - https://github.com/aws/amazon-sagemaker-examples/blob/master/sagemaker_processing/fairness_and_explainability/fairness_and_explainability.ipynb
 
 #### SageMaker Debugger
 - Inspect training parameters and data throughout the training process. 
