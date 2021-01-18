@@ -89,7 +89,9 @@ As part of the example solution (architecture shown below), the following servic
 
 #### SageMaker Autopilot & Jumpstart
 - Create classification and regression models quickly and easily
+- Use the AutoML estimator from SageMaker Python SDK to invoke Autopilot to find the best ML pipeline to train a model on a dataset
 - Autopilot generated models can be configured to return probabilities of each inference
+- Currently Autopilot supports only tabular datasets in CSV format
 - Learn about SageMaker features and capabilities through curated 1-click solutions
 - Run example notebooks, and pretrained models that you can deploy. 
 
