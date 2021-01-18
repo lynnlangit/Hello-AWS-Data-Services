@@ -88,6 +88,7 @@ As part of the example solution (architecture shown below), the following servic
 
 #### SageMaker Autopilot & Jumpstart
 - Create classification and regression models quickly and easily
+- Autopilot generated models can be configured to return probabilities of each inference
 - Learn about SageMaker features and capabilities through curated 1-click solutions
 - Run example notebooks, and pretrained models that you can deploy. 
 
