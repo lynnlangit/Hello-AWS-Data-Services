@@ -59,9 +59,9 @@ As part of the example solution (architecture shown below), the following servic
 - Can create hyperparameter tuning jobs 
 
 #### Inference Jobs
+- Can crate persistent endpoints using endpoint configurations
 - Run inference on datasets using Batch Transform Jobs
 - Run Batch Tranform jobs to run inference when you don't need a persistent endpoint
-- Associate input records with inferences to assist the interpretation of results
 
 ---
 
@@ -90,6 +90,22 @@ As part of the example solution (architecture shown below), the following servic
 - Use the Online Store can for low latency, real-time inference use cases 
 - Use the Offline Store can be used for training and batch inference.
 
+#### SageMaker Autopilot & Jumpstart
+- Create classification and regression models quickly and easily
+- Learn about SageMaker features and capabilities through curated 1-click solutions
+- Run example notebooks, and pretrained models that you can deploy. 
+
+#### SageMaker Experiments and Reinforcement Learning
+- Experiment management and tracking. 
+- Use the tracked data to reconstruct an experiment, 
+- Incrementally build on experiments conducted by peers
+- Trace model lineage for compliance and audit verifications.
+- Maximize the long-term reward that an agent receives as a result of its actions using RL
+
+#### Amazon Augmented AI
+- Build the workflows required for human review of ML predictions.
+- Supports image, text or custom analysis jobs
+
 ---
 
 ## Deployment Tools
@@ -117,24 +133,6 @@ As part of the example solution (architecture shown below), the following servic
 
 ---
 
-## Easy Model Creation & Data Preparation
 
-#### SageMaker Autopilot & Jumpstart
-- Users without machine learning knowledge can quickly build classification and regression models.
-- Learn about SageMaker features and capabilities through curated 1-click solutions, 
-- Run example notebooks, and pretrained models that you can deploy. 
-
-#### Reinforcement Learning
-- Maximize the long-term reward that an agent receives as a result of its actions.
-
-#### SageMaker Experiments
-- Experiment management and tracking. 
-- Use the tracked data to reconstruct an experiment, 
-- Incrementally build on experiments conducted by peers
-- Trace model lineage for compliance and audit verifications.
-
-#### Amazon Augmented AI
-- Build the workflows required for human review of ML predictions.
-- Supports image, text or custom analysis jobs
 
 
