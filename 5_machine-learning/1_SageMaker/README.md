@@ -8,6 +8,7 @@ Shown below are the pipeline phases, which correspond to parts of the AWS SageMa
 
 ![SageMaker phases](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/sagemaker-phases.png)
 
+---
 
 ## SageMaker Services
 
@@ -16,7 +17,6 @@ Amazon SageMaker includes many services (or features).  These services are categ
 ### Notebook Work Areas
 #### SageMaker Studio
 An integrated machine learning environment where you can build, train, deploy, and analyze your models all in the same application.
-
 #### SageMaker Studio Notebooks
 The next generation of SageMaker notebooks that include AWS Single Sign-On (AWS SSO) integration, fast start-up times, and single-click sharing.
 
