@@ -66,20 +66,18 @@ As part of the example solution (architecture shown below), the following servic
 
 ## Developer Tools
 
-#### SageMaker Clarify
+#### SageMaker Clarify & Data Wrangler
 - Improve your machine learning models by detecting potential bias and help explain the predictions that models make.
 - Example Notebook using Clarify - [link](https://github.com/aws/amazon-sagemaker-examples/blob/master/sagemaker_processing/fairness_and_explainability/fairness_and_explainability.ipynb)
+- Import, analyze, prepare, and featurize data in SageMaker Studio. 
+- Integrate Data Wrangler into your machine learning workflows to simplify
+- streamline data pre-processing and feature engineering using little to no coding. 
+- Add your own Python scripts and transformations to customize your data prep workflow.
 
 #### SageMaker Debugger & Model Monitor
 - Inspect training parameters and data throughout the training process. 
 - Automatically detect and alert users to commonly occurring errors such as parameter values getting too large or small.
 - Monitor and analyze models in production (endpoints) to detect data drift and deviations in model quality.
-
-##### SageMaker Data Wrangler
-- Import, analyze, prepare, and featurize data in SageMaker Studio. 
-- Integrate Data Wrangler into your machine learning workflows to simplify
-- streamline data pre-processing and feature engineering using little to no coding. 
-- Add your own Python scripts and transformations to customize your data prep workflow.
 
 #### SageMaker Feature Store
 - A centralized store for features and associated metadata so features can be easily discovered and reused. 
