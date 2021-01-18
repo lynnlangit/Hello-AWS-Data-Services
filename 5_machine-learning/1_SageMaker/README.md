@@ -39,6 +39,7 @@ Amazon SageMaker includes many services (or features).  These services are categ
 
 #### SageMake Notebook Instances
 - Use simple Jupyter Notebook interface instances - lightweight
+- Use example Notebook configuration scripts - https://github.com/aws-samples/amazon-sagemaker-notebook-instance-lifecycle-config-samples
 
 ---
 ### Model Management
