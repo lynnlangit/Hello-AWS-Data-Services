@@ -23,20 +23,6 @@ As part of the example solution (architecture shown below), the following servic
 
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/sm-ex-arch.png" width=800>
 
-
----
-
-## Jupyter Notebook Dev Env
-
-#### SageMaker Studio Notebooks (and other services)
-- An integrated machine learning environment where you can build, train, deploy, and analyze your models all in the same application.
-- Use the next generation of SageMaker notebooks which include AWS Single Sign-On (AWS SSO) integration, fast start-up times, and single-click sharing.
-- Read a comparison of Studio vs regular SageMaker Notebooks - [link](https://docs.aws.amazon.com/sagemaker/latest/dg/notebooks-comparison.html)
-
-#### SageMake Notebook Instances
-- Use simple Jupyter Notebook interface instances - lightweight
-- Use example Notebook configuration scripts - [link](https://github.com/aws-samples/amazon-sagemaker-notebook-instance-lifecycle-config-samples)
-
 ---
 
 ## SageMaker Job Types
@@ -62,6 +48,19 @@ As part of the example solution (architecture shown below), the following servic
 - Can crate persistent endpoints using endpoint configurations
 - Run inference on datasets using Batch Transform Jobs
 - Run Batch Tranform jobs to run inference when you don't need a persistent endpoint
+
+---
+
+## Jupyter Notebook Dev Env
+
+#### SageMaker Studio Notebooks (and other services) --OR--
+- An integrated machine learning environment where you can build, train, deploy, and analyze your models all in the same application.
+- Use the next generation of SageMaker notebooks which include AWS Single Sign-On (AWS SSO) integration, fast start-up times, and single-click sharing.
+- Read a comparison of Studio vs regular SageMaker Notebooks - [link](https://docs.aws.amazon.com/sagemaker/latest/dg/notebooks-comparison.html)
+
+#### SageMake Notebook Instances
+- Use simple Jupyter Notebook interface instances - lightweight
+- Use example Notebook configuration scripts - [link](https://github.com/aws-samples/amazon-sagemaker-notebook-instance-lifecycle-config-samples)
 
 ---
 
