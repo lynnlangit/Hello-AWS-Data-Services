@@ -51,16 +51,17 @@ As part of the example solution (architecture shown below), the following servic
 - Tackle feature engineering
 - Interpret and evaluate models
 - Can be run as pre or post-processing jobs
+- Can use Batch Transforms jobs for this type of task
 
 #### Training Jobs 
 - Create or reuse ML algorithms running in containers
 - Use hyperparameter training configurations
 - Can create hyperparameter tuning jobs 
 
-#### Batch Transform
-- Preprocess datasets
-- Run inference when you don't need a persistent endpoint
-- Associate input records with inferences to assist the interpretation of results.
+#### Inference Jobs
+- Run inference on datasets using Batch Transform Jobs
+- Run Batch Tranform jobs to run inference when you don't need a persistent endpoint
+- Associate input records with inferences to assist the interpretation of results
 
 ---
 
