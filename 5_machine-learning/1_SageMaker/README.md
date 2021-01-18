@@ -114,10 +114,10 @@ Versioning, artifact and lineage tracking, approval workflow, and cross account 
 - Incrementally build on experiments conducted by peers
 - Trace model lineage for compliance and audit verifications.
 
-#### Preprocessing
-- Analyze and preprocess data
+#### Processing Jobs
+- Analyze, validate and process data in scalable, container-based job clusters
 - Tackle feature engineering
-- Evaluate models.
+- Interpret and evaluate models
 
 #### Batch Transform
 - Preprocess datasets
