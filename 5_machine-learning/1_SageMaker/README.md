@@ -13,7 +13,7 @@ Shown below are the pipeline phases, which correspond to parts of the AWS SageMa
 ## SageMaker Job Types
 
 #### Labeling Jobs
-- Use SageMaker Ground Truth to include humans in the process
+- Use SageMaker Ground Truth to include humans in the data labeling process
 - Use high-quality training datasets by using workers along with machine learning to create labeled datasets
 - Supports image, text or custom analysis jobs
 
