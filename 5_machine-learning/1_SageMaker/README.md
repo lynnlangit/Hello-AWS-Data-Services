@@ -98,10 +98,8 @@ Versioning, artifact and lineage tracking, approval workflow, and cross account 
 
 ### Easy Model Creation & Data Preparation
 
-#### SageMaker Autopilot
+#### SageMaker Autopilot & Jumpstart
 - Users without machine learning knowledge can quickly build classification and regression models.
-
-#### SageMaker JumpStart
 - Learn about SageMaker features and capabilities through curated 1-click solutions, 
 - Run example notebooks, and pretrained models that you can deploy. 
 
@@ -113,6 +111,11 @@ Versioning, artifact and lineage tracking, approval workflow, and cross account 
 - Use the tracked data to reconstruct an experiment, 
 - Incrementally build on experiments conducted by peers
 - Trace model lineage for compliance and audit verifications.
+
+#### Training Jobs 
+- Create or reuse ML algorithms running in containers
+- Use hyperparameter training configurations
+- Can create hyperparameter tuning jobs 
 
 #### Processing Jobs
 - Analyze, validate and process data in scalable, container-based job clusters
