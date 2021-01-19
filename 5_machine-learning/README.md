@@ -20,8 +20,8 @@ Chart below for reference, grouped by category -- SaaS, PaaS and IaaS for AWS Ma
 ### AWS Machine Learning Resources
 
 - READ main **AWS ML blog** at https://aws.amazon.com/blogs/machine-learning/
-- PRACITE using training from **AWS ML Team** at https://aws.amazon.com/machine-learning/mlu/ (NLP, Tabular Data or Computer Vision scenarios)
-
+- WORK with training from **AWS ML Team** at https://aws.amazon.com/machine-learning/mlu/ 
+    - NLP, Tabular Data or Computer Vision scenarios
 - PRACTICE using any of of a large number of **AWS SageMaker Jupyter notebook** examples
     - create a AWS SageMaker Notebook instance 
     - connect to Jupyter
