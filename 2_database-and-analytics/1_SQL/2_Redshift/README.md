@@ -1,5 +1,9 @@
 # About AWS Redshift
 
+## Redshift System Architecture
+
+From AWS Docs -[link](https://docs.aws.amazon.com/redshift/latest/dg/c_high_level_system_architecture.html)
+
 ## Use AWS Redshift Query Editor
 
 These default parameters for the Query Editor connection configuration
