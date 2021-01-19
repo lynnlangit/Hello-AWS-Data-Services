@@ -10,9 +10,18 @@ Chart below for reference, grouped by category -- SaaS, PaaS and IaaS for AWS Ma
 
 ## Learn more 
 
+### Core Machine Learning Concepts
+
+- LEARN via an open source course `homemade-machine-learning` - use Jupyter notebook examples which explain & demo key ML algorithms in Python - [link](https://github.com/trekhleb/homemade-machine-learning)
+- LEARN using the open source `sci-kit learn` Python library - [link](https://scikit-learn.org/stable/getting_started.html)
+- LEARN CNN example with TensorFlow/Keras and with mnist data - [link](https://towardsdatascience.com/image-classification-in-10-minutes-with-mnist-dataset-54c35b77a38d)
+- LEARN CNN example with fashion mnist data - [link](https://towardsdatascience.com/mnist-cnn-python-c61a5bce7a19)
+
+### AWS Machine Learning Resources
+
 - READ main **AWS ML blog** at https://aws.amazon.com/blogs/machine-learning/
 - PRACITE using training from **AWS ML Team** at https://aws.amazon.com/machine-learning/mlu/ (NLP, Tabular Data or Computer Vision scenarios)
-- LEARN via an open source course `homemade-machine-learning` - use Jupyter notebook examples which explain & demo key ML algorithms in Python - [link](https://github.com/trekhleb/homemade-machine-learning)
+
 - PRACTICE using any of of a large number of **AWS SageMaker Jupyter notebook** examples
     - create a AWS SageMaker Notebook instance 
     - connect to Jupyter
