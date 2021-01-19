@@ -34,6 +34,8 @@ Shown below are the pipeline phases, which correspond to parts of the AWS SageMa
 - Run inference on datasets using Batch Transform Jobs
 - Run Batch Tranform jobs to run inference when you don't need a persistent endpoint
 
+<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/sagemaker-arch.png" width=800>
+
 ---
 
 ## Jupyter Notebook Dev Env
