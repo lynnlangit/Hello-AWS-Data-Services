@@ -1,6 +1,8 @@
 # AWS Deep Learning AMI
 
-Use the AWS Deep Learning AMI image to create a pre-loaded EC2 instance.  Search on 'deep learning' in the EC2 `create instance` interface to use the latest image version.  Information on the latest AMI (from AWS documentation) is shown below and in docs - [link](https://docs.aws.amazon.com/dlami/latest/devguide/what-is-dlami.html)
+Use the AWS Deep Learning AMI image to create a pre-loaded EC2 instance.  Search on 'deep learning' in the EC2 `create instance` interface to use the latest image version.  Information on the latest AMI (from AWS documentation) is shown below and in docs - [link](https://docs.aws.amazon.com/dlami/latest/devguide/what-is-dlami.html)  
+
+<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/deep-learning-ami.png" width=800>
 
 ----
 
