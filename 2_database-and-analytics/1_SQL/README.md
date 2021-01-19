@@ -5,7 +5,7 @@
 Generally there are two categories - relational or data warehouse.
 The graphic below outlines the differences.  Of note, is that AWS is adding serverless capabilities to both of these services.
 
-![AWS-SQL](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/aws-sql.png)
+<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/aws-sql.png" width=800>
 
 ---
 
@@ -14,10 +14,22 @@ The graphic below outlines the differences.  Of note, is that AWS is adding serv
 There are two cateogories of relational database engines for RDS - open source or commercial (the latter requires a commercial DB license).  Research the features and select the DB platform based on your application's needs. The list below summarizes these choices:
 
 - Open Source
-  - **Amazon Aurora** - built for cloud
+
+  - **Amazon Aurora** 
+    - highly optimized open source (for AWS) 
+    - choose RDS (VM-based) or Serverless (per unit)
+      - Serverless best practices - [link](https://aws.amazon.com/blogs/database/best-practices-for-working-with-amazon-aurora-serverless/)
+      - Serverless has some limitations - [link](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-2.limitations.html)
+      - Is Serverless production-ready - [blog](https://www.2ndwatch.com/blog/serverless-aurora-production-ready-yet/)
   - **MySQL** - dominant in open source
   - **Postgres** - alternative, viable open source choice
   - **MariaDB** - evolution of MySQL
+  
 - Commercial
-  - **SQL Server** - must selection version and edition
-  - **Oracle** - must selection version and edition
+
+  - **SQL Server** 
+    - must select version and edition
+    - requires RDBMS license
+  - **Oracle** 
+    - must select version and edition
+    - requires RDBMS license
