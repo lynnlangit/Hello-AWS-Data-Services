@@ -17,9 +17,10 @@ There are two cateogories of relational database engines for RDS - open source o
 
   - **Amazon Aurora** 
     - highly optimized open source (for AWS) 
-    - choose RDS or Serverless
-    - Serverless best practices - [link](https://aws.amazon.com/blogs/database/best-practices-for-working-with-amazon-aurora-serverless/)
-    - Serverless has some limitations - [link](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-2.limitations.html)
+    - choose RDS (VM-based) or Serverless (per unit)
+      - Serverless best practices - [link](https://aws.amazon.com/blogs/database/best-practices-for-working-with-amazon-aurora-serverless/)
+      - Serverless has some limitations - [link](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-2.limitations.html)
+      - Is Serverless production-ready - [blog](https://www.2ndwatch.com/blog/serverless-aurora-production-ready-yet/)
   - **MySQL** - dominant in open source
   - **Postgres** - alternative, viable open source choice
   - **MariaDB** - evolution of MySQL
