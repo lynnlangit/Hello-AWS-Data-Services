@@ -2,7 +2,7 @@
 
 ## Relational or DW
 
-Generally there are two categories - relational or data warehouse.
+Generally there are two categories - `relational store (OLTP)` or `data warehouse (OLAP)`.
 The graphic below outlines the differences.  Of note, is that AWS is adding serverless capabilities to both of these services.
 
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/aws-sql.png" width=800>
@@ -11,7 +11,7 @@ The graphic below outlines the differences.  Of note, is that AWS is adding serv
 
 ## for RDS - pick your DB engine
 
-There are two cateogories of relational database engines for RDS - open source or commercial (the latter requires a commercial DB license).  Research the features and select the DB platform based on your application's needs. The list below summarizes these choices:
+There are two cateogories of relational database engines for RDS - open source or commercial (the latter requires a commercial RDBMS license).  Research the features and select the DB platform based on your application's needs. The list below summarizes these choices:
 
 - Open Source
 
