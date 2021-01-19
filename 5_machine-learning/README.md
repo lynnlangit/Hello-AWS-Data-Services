@@ -8,7 +8,8 @@ Chart below for reference, grouped by SaaS, PaaS and IaaS for AWS Machine Learni
 
 ## My Courses
 
-I have created courses and other content so that you can learn AWS Machine Learning.  Also I've included links to other top quality learning content here.
+I have created courses and other content so that you can learn AWS Machine Learning.  Also I've included links to other top quality learning content here.  
+
 - My **LinkedIn Learning course** `AWS ML Essentials` - [link](https://www.linkedin.com/learning/amazon-web-services-machine-learning-essential-training)
 - Main **AWS ML blog** at https://aws.amazon.com/blogs/machine-learning/
 - Training from **AWS ML Team** at https://aws.amazon.com/machine-learning/mlu/ (NLP, Tabular Data or Computer Vision scenarios)
@@ -19,4 +20,5 @@ I have created courses and other content so that you can learn AWS Machine Learn
 ---
 
 ## Learn ML Foundations
-- Course 'homemade-machine-learning' - create course w/Jupyter notebook examples which explains and demos key ML algorithms in Python - [link](https://github.com/trekhleb/homemade-machine-learning)
+
+- Open source course `homemade-machine-learning` - use Jupyter notebook examples which explain & demo key ML algorithms in Python - [link](https://github.com/trekhleb/homemade-machine-learning)
