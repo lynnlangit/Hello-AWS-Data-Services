@@ -15,3 +15,9 @@ These default parameters for the Query Editor connection configuration
 IMPORTANT: You must create and assign an IAM Role to your Redshift cluster.
 If you forget, you can create a role and assign it AFTER the cluster has been created.
 However it may take some time for the new role to be applied.  Alternatively, you can re-boot your cluster.
+
+## More Info
+
+- Redshift Data Sharing - https://www.youtube.com/watch?v=sIoTB8B5nn4
+    - Uses Redshift clusters as producers and/or consumers of data
+    - Uses Redshift `datashare` objects w/defined `schema` and added `tables`, then `consumer namespace(s)`
