@@ -1,6 +1,8 @@
 # DynamoDB
 
-Amazon DynamoDB is a fully managed proprietary NoSQL database service that supports key-value and document data structures. DynamoDB has a multi-leader design requiring the client to resolve version conflicts and it uses synchronous replication across multiple data centers for high durability and availability
+Amazon DynamoDB is a fully managed proprietary NoSQL database service that supports key-value and document data structures. DynamoDB has a multi-leader design requiring the client to resolve version conflicts and it uses synchronous replication across multiple data centers for high durability and availability. Example table structure shown below.
+
+<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/dynamodb-tables.png" width=800>
 
 ## More
 
