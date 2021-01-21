@@ -3,7 +3,8 @@
 ## Redshift System Architecture & Sample DB
 
 - Arch -> From AWS Docs - [link](https://docs.aws.amazon.com/redshift/latest/dg/c_high_level_system_architecture.html)
-- Sample DB - [link](https://docs.aws.amazon.com/redshift/latest/dg/c_sampledb.html)
+- Sample DB schema - [link](https://docs.aws.amazon.com/redshift/latest/dg/c_sampledb.html)
+- Sample DB scripts - [link](https://docs.aws.amazon.com/redshift/latest/gsg/rs-gsg-create-sample-db.html)
 
 ## Use AWS Redshift Query Editor
 
