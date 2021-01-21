@@ -16,6 +16,9 @@ Wait for create to be `ready`, then `Modify`
 Connect to RDS Query Editor
 - query editor window will open
 
+Best Practices
+- for Aurora generally and also for Aurora MySQL or Aurora Postgres - https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.BestPractices.html
+
 ---
 ## Aurora PostgreSQL Example
 
