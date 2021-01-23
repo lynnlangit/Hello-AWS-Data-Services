@@ -41,10 +41,14 @@ This is a set of scripts and instructions designed to help you quickly set up an
 ## AWS Machine Learning 
 
 Includes information about using machine learning servers and cloud services, including the following:  
-  - AWS EC2 custom AMI for Machine Learning 
-  - AWS SageMaker
-  - Databricks (Managed Spark) on AWS showing ML MxNet
-  - AWS EMR Spark with SparkML
+  - **Amazon Machine Learning AMI (image)** on EC2
+  - **AWS SageMaker** using managed Juptyer Notebook instances
+  - **Databricks AWS Community Edition**
+    - implements managed Spark
+    - on AWS
+    - showing MxNet and other algorithms
+  - **AWS EMR** 
+    - with Apache Spark with Spark (and SparkML)
 
 NOTES on the examples:
    - All are set to run in the 'us-east-1' AWS region.
