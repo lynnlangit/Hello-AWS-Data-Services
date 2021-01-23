@@ -1,4 +1,5 @@
-**IMPORTANT** This Repo is a companion to my LinkedIn Learning courses
+**IMPORTANT** This Repo is a companion to my LinkedIn Learning courses - services covered are shown in the diagram below  
+
 - **'AWS Data Services' - [link](https://www.linkedin.com/learning/amazon-web-services-data-services-2)**
 - **'AWS Machine Learning' - [link](https://www.linkedin.com/learning/amazon-web-services-machine-learning-essential-training)**
 
