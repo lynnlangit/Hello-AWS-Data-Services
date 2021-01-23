@@ -41,8 +41,11 @@ This is a set of scripts and instructions designed to help you quickly set up an
 ## AWS Machine Learning 
 
 Includes information about using machine learning servers and cloud services, including the following:  
-  - **Amazon Machine Learning AMI (image)** on EC2
-  - **AWS SageMaker** using managed Juptyer Notebook instances
+  - **Amazon Machine Learning AMI (image)** 
+    - on EC2 instances 
+    - GPUs optional
+  - **AWS SageMaker** 
+    - using managed Juptyer Notebook instances
   - **Databricks AWS Community Edition**
     - implements managed Spark
     - on AWS
