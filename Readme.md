@@ -49,7 +49,9 @@ Includes information about using machine learning servers and cloud services, in
 NOTES on the examples:
    - All are set to run in the 'us-east-1' AWS region.
    - All were prepared on an OSX laptop.
-   - Machine Learning 'Hello World' example is `mnist` (probablistic image classification -> into 10 classes using images of handwritten digits)
+   - Machine Learning 'Hello World' neural network (NN algorithm) example is...
+      - `mnist` (probablistic image classification -> into 10 classes using images from handwritten digits) --OR--
+      - `fashion mnist` (probablistic image classification -> into 10 classes using from grey-scale images of types of clothing)
    
 ---
 
