@@ -1,6 +1,11 @@
+**IMPORTANT** This Repo is a companion to my LinkedIn Learning courses
+- **'AWS Data Services' - [link](https://www.linkedin.com/learning/amazon-web-services-data-services-2)**
+- **'AWS Machine Learning' - [link](https://www.linkedin.com/learning/amazon-web-services-machine-learning-essential-training)**
+
+
 ![AWS Data Services and Machine Learning](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/aws-data-services.png)
 
-**IMPORTANT** This Repo is a companion to my LinkedIn Learning course **'AWS Data Services' - [link](https://www.linkedin.com/learning/amazon-web-services-data-services-2)**
+
 
 ## AWS Data Services
 
