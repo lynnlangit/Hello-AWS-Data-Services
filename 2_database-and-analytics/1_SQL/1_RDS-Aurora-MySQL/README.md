@@ -8,6 +8,7 @@ Setup your Database with these settings
 - edition -> MySQL 5.6 or better
 - instance size -> Serverless
 - templates -> dev/test
+- UNCHECK `terminatation protection` on
 
 Wait for create to be `ready`, then `Modify`
 - Network & Security -> enable `Data API`
