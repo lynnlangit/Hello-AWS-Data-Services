@@ -8,6 +8,7 @@ Amazon DynamoDB is a fully managed proprietary NoSQL database service that suppo
 
 - Core components - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html
 - SQL or NoSQL (or 'why DynamoDB?') - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SQLtoNoSQL.WhyDynamoDB.html
+- Application Patterns - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-hybrid.html
 - Wikipedia entry - https://en.wikipedia.org/wiki/Amazon_DynamoDB
 - Architecture - https://medium.com/swlh/architecture-of-amazons-dynamodb-and-why-its-performance-is-so-high-31d4274c3129
 - Technical Details / AWS Deck - https://www.pinterest.com/pin/326511041717979372/
