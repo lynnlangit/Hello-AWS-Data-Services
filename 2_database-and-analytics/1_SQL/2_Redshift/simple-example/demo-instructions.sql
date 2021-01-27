@@ -35,6 +35,11 @@ COPY myinternalschema.event FROM 's3://csv-demo-lynn/tickitdb/allevents_pipe.txt
 iam_role 'arn:aws:iam::586641480003:role/aws-service-role/redshift.amazonaws.com/AWSServiceRoleForRedshift'
 delimiter '|' timeformat 'YYYY-MM-DD HH:MI:SS' region 'us-east-1';
 
+/* Load Data row-by-row -> pattern */
+insert into myinternalschema.event
+(eventid, venueid, catid, dateid, eventname, starttime)
+values ('3', '304', '8', '1851', 'tomorrow', '2008-01-25 14:30:00');
+
 /* View a snippet of the same dataset in myinternalschema */
 SELECT * FROM myinternalschema.event
 LIMIT 10;
