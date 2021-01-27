@@ -1,7 +1,7 @@
 **IMPORTANT** This Repo is a companion to my LinkedIn Learning courses - services covered are shown in the diagram below.  Detail on DEMOS for AWS  services in [this file](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/DEMOS.md)
 
-- **'AWS Data Services' - [link](https://www.linkedin.com/learning/amazon-web-services-data-services-2)** Linked In Learning course
-- **'AWS Machine Learning' - [link](https://www.linkedin.com/learning/amazon-web-services-machine-learning-essential-training)** Linked In Learning course
+- **'AWS Data Services'** Linked In Learning course - [link](https://www.linkedin.com/learning/amazon-web-services-data-services-2)
+- **'AWS Machine Learning'** Linked In Learning course - [link](https://www.linkedin.com/learning/amazon-web-services-machine-learning-essential-training)
 
 ![AWS Data Services and Machine Learning](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/aws-data-services.png)
 
