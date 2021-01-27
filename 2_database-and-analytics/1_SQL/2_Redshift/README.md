@@ -21,6 +21,7 @@ However it may take some time for the new role to be applied.  Alternatively, yo
 ## More Info
 
 - End-to-end example from previous reInvent workshop - https://github.com/lynnlangit/AWS-Redshift-Matillion-Workshop
+- Redshift Access Advisor recommendations - https://docs.aws.amazon.com/redshift/latest/dg/advisor-recommendations.html
 - Redshift Data Sharing - https://www.youtube.com/watch?v=sIoTB8B5nn4
     - Uses Redshift clusters as producers and/or consumers of data
     - Uses Redshift `datashare` objects w/defined `schema` and added `tables`, then `consumer namespace(s)`
