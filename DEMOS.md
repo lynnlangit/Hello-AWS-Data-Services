@@ -1,6 +1,6 @@
 # AWS Data Services
 
-This is a set of scripts and instructions designed to help you quickly set up and load key AWS data services for demo and learning purposes.  The goal is to get a 'Hello World' implementation set up quickly. These samples use the AWS Query Editors for RDS and Redshift.  I recommend using the included Jupyter Notebook to quickly connect to EMR.  Examples often includes simple scripts (`awscli` scripts  or AWS SDK `node.js` scripts). Samples include the following AWS Data Services and more:   
+This Repo includes a set of scripts and instructions designed to help you quickly set up and load key AWS data services for demo and learning purposes as a companion to my LinkedIn Learning AWS courses on these topics.  The goal is to get a 'Hello World' implementation set up quickly. These samples use the AWS Query Editors for RDS and Redshift.  I recommend using the included Jupyter Notebook to quickly connect to EMR.  Examples often includes simple scripts (`awscli` scripts  or AWS SDK `node.js` scripts). Samples include the following AWS Data Services and more:   
 
 ### Database (SQL)
   - **AWS RDS Aurora and MySQL**
