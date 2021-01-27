@@ -1,6 +1,9 @@
 --From this blog post
 --https://aws.amazon.com/blogs/big-data/query-your-amazon-redshift-cluster-with-the-new-query-editor/
 
+--Sample data here
+--https://github.com/lynnlangit/Hello-AWS-Data-Services/tree/master/0b_sample_data/tickitdb
+
 /* Create a Redshift cluster subnet group
 --add all subnets from your VPC
 --create a trial size Redshift cluster
