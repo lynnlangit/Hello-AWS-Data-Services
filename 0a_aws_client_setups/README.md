@@ -2,12 +2,18 @@
 
 ## AWS Console / WebUI or Cloud Shell
 
-For study
+For study purpose, it's generally quicker and simpler to use browser-based tools.  These tools require significantly less configuration and setup time than the alternative (which would be to download tools to your laptop).  For this reason I use (and show) browser-based tools in the majority of my AWS courses.  
+
 - Use **AWS WebUI / console**
     - Create dedicated AWS account, login to AWS Web UI at https://console.aws.amazon.com/
     - Create AWS Budget (and alert) for your daily service spending limit
     - (Optional) create non-root IAM user and login with those user credentials
     - (Optional) add MFA (multi-factor authentication) to user account 
+    
+ - Use **AWS integrated query editor(s)**
+    - Aurora Serverless (RDS) now includes an integrated web-based SQL query editor (in the AWS WebUI)
+    - DynamoDB now includes the PartiSQL integrated web-based table query editor (in the AWS WebUI)
+    - EMR now includes Jupter notebook interfaces
     
  - Use **AWS cloud shell**
     - AWS CloudShell is a browser-based shell that makes it easy to securely manage, explore, and interact with your AWS resources using the AWS CLI or SDKs
@@ -18,11 +24,11 @@ For study
     
 ---
 
-## Tools for Scripts and Code
+## Download AWS Tools (Scripts and Code)
 
-- Main AWS Tools site -- https://aws.amazon.com/tools/
+Main AWS Tools site -- https://aws.amazon.com/tools/.  Here you can download tools to your laptop.  Most tools have dependencies (i.e. Python, Java...) and required configuration.  Tool installations differ depending on the OS on your laptop (i.e. Mac, Windows, ....), be sure to carefully read tool installation guidance for your local setup.  
 
-- Use AWS cli
+- Use **AWS cli**
     - download the `aws cli` for your OS -- https://aws.amazon.com/cli/
     - create not-root IAM user with credentials - download credential file
     - verify Python version 
@@ -30,7 +36,7 @@ For study
     - (Optiona) create one or more AWS profiles (stored in ~/.credential file)
     - (Optional) download `aws cli shell` which includes auto-complete -- https://github.com/awslabs/aws-shell
 
-- Use AWS SDK
+- Use **AWS SDK**
     - Select your language, i.e. node, Python, etc...
     - Download the AWS SDK for your language - for node -- https://aws.amazon.com/sdk-for-node-js/
     - (Optional) if using VSCode, there are a number of useful AWS add-ins
@@ -41,7 +47,7 @@ For study
         - use `AWS Amplify API` to add Amplify API code snippets
     - (Alternate) create an AWS Cloud9 IDE instance -- https://aws.amazon.com/cloud9/
 
-- Use 3rd party client
+- Use **3rd party** client tools
     - For RDS SQL 
         - can use MySQLWorkbench (for RDS Aroura, MySQL)
         - can use SQLOperationsStudio (for RDS SQL Server)
