@@ -12,7 +12,7 @@
 
 ### Code and Notes
 
-- My example AWS GitHub Repos
+- My example AWS GitHub Repos (code, links and sample data)  
   - **'hello-aws-data-services'** - [link](https://github.com/lynnlangit/Hello-AWS-Data-Services)
   - **'aws-cost-control'** - [link](https://github.com/lynnlangit/aws-cost-control)
   - **'learning-hadoop-and-spark'** - [link](https://github.com/lynnlangit/learning-hadoop-and-spark)
