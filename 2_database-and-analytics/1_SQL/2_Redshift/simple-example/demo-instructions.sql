@@ -10,7 +10,7 @@
 
 /* Setup cluster with IAM role, 
 --if you forget to do this when you first create your cluster
---just create an IAM role with appropriate permissions
+--just create an IAM role with appropriate permissions (must include S3 READ-ONLY to be able to load data from S3)
 --modify your cluster to apply the new role
 --and reboot cluster to apply the new role settings immediately
 
@@ -31,8 +31,8 @@ eventname varchar(200),
 starttime timestamp);
 
 /* Load Data from public S3 bucket */
-COPY myinternalschema.event FROM 's3://aws-redshift-spectrum-sample-data-us-east-1/spectrum/event/allevents_pipe.txt'
-iam_role 'arn:aws:iam::069361131403:role/redshiftDemo'
+COPY myinternalschema.event FROM 's3://csv-demo-lynn/tickitdb/allevents_pipe.txt'
+iam_role 'arn:aws:iam::586641480003:role/aws-service-role/redshift.amazonaws.com/AWSServiceRoleForRedshift'
 delimiter '|' timeformat 'YYYY-MM-DD HH:MI:SS' region 'us-east-1';
 
 /* View a snippet of the same dataset in myinternalschema */
