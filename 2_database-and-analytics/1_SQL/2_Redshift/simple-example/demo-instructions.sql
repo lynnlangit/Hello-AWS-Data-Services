@@ -1,6 +1,10 @@
 --From this blog post
 --https://aws.amazon.com/blogs/big-data/query-your-amazon-redshift-cluster-with-the-new-query-editor/
 
+/* Create a Redshift cluster subnet group
+--add all subnets from your VPC
+--create a trial size Redshift cluster
+
 /* Setup cluster with IAM role, 
 --if you forget to do this when you first create your cluster
 --just create an IAM role with appropriate permissions
