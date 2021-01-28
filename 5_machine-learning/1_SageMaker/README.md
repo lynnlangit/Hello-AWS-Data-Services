@@ -55,12 +55,12 @@ Shown below are the pipeline phases, which correspond to parts of the AWS SageMa
 ## Developer Tools
 
 #### SageMaker Clarify & Data Wrangler
-- Improve your machine learning models by detecting potential bias and help explain the predictions that models make.
-- Example Notebook using Clarify - [link](https://github.com/aws/amazon-sagemaker-examples/blob/master/sagemaker_processing/fairness_and_explainability/fairness_and_explainability.ipynb)
-- Import, analyze, prepare, and featurize data in SageMaker Studio. 
-- Integrate Data Wrangler into your machine learning workflows to simplify
-- streamline data pre-processing and feature engineering using little to no coding. 
-- Add your own Python scripts and transformations to customize your data prep workflow.
+- Use Clarify to omprove your machine learning models by detecting potential bias and help explain the predictions that models make.
+  - Example Notebook using Clarify - [link](https://github.com/aws/amazon-sagemaker-examples/blob/master/sagemaker_processing/fairness_and_explainability/fairness_and_explainability.ipynb)
+- Use Data Wrangler in SageMaker Studio (Workflows) to...
+  - Streamline data pre-processing and feature engineering using little to no coding. 
+  - Use your own Python scripts and transformations to customize your data prep workflow.
+  - Example - https://aws.amazon.com/blogs/machine-learning/exploratory-data-analysis-feature-engineering-and-operationalizing-your-data-flow-into-your-ml-pipeline-with-amazon-sagemaker-data-wrangler/
 
 #### SageMaker Debugger & Model Monitor
 - Inspect training parameters and data throughout the training process. 
