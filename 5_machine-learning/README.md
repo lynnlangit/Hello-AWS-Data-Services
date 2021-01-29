@@ -15,8 +15,14 @@ Chart below for reference, grouped by category -- SaaS, PaaS and IaaS for AWS Ma
 
 - LEARN via an open source course `homemade-machine-learning` - use Jupyter notebook examples which explain & demo key ML algorithms in Python - [link](https://github.com/trekhleb/homemade-machine-learning)
 - LEARN using the open source `sci-kit learn` Python library - [link](https://scikit-learn.org/stable/getting_started.html)
+
+### Learn Convolutional Neural Network Concepts
+
 - LEARN CNN example with TensorFlow/Keras and with mnist data - [link](https://towardsdatascience.com/image-classification-in-10-minutes-with-mnist-dataset-54c35b77a38d)
 - LEARN CNN example with fashion mnist data - [link](https://towardsdatascience.com/mnist-cnn-python-c61a5bce7a19)
+- LEARN CNN encoding with mnist - [link](https://www.guru99.com/convnet-tensorflow-image-classification.html)
+
+----
 
 ### AWS Machine Learning Resources
 
