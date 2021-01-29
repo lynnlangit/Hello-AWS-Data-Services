@@ -18,6 +18,7 @@ Chart below for reference, grouped by category -- SaaS, PaaS and IaaS for AWS Ma
 
 ### Learn Convolutional Neural Network Concepts (CNNs)
 
+- SEE Fashion mnist and get sample data - [link](https://github.com/zalandoresearch/fashion-mnist)
 - TRY CNN example with **TensorFlow/Keras and with mnist** data - [link](https://towardsdatascience.com/image-classification-in-10-minutes-with-mnist-dataset-54c35b77a38d)
 - LEARN CNN example with **fashion mnist** data - [link](https://towardsdatascience.com/mnist-cnn-python-c61a5bce7a19)
 - LEARN CNN **encoding for mnist** - [link](https://www.guru99.com/convnet-tensorflow-image-classification.html)
