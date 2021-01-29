@@ -15,8 +15,7 @@
 
 ####################### CREATE INSTNCE ################################
 # 1a. Select the AWS ML AMI which includes the libraries you want to use
-#       TIP: Search for the 'conda ML AMI' to get all libraries and gpu drivers
-#               it is 'AMI-5c9aa926'
+#       TIP: The most current version is Deep Learning AMI (Amazon Linux) Version 39.1 - It is ami-030c83cfbb321b081
 
 # 1b. Create EC2 instance using the AMI above
 #       Select the machine instance type of interest
@@ -32,7 +31,7 @@
 # 2a. From ssh window, run 'jupyter notebook' to start Jupyter on your instance
 #       Copy the URL (which includes a token) to your clipboard
 
-# 2b. From a new terminal window, create a tunnel to your instance for jupyter
+# 2b. From a NEW terminal window, create a tunnel to your instance for jupyter
 #       Run 'ssh -nNt -L localhost:8888:localhost:8888 -i yourkey.pem ec2-user@.<ip>....'
 
 # 2c. Use Jupyter on your laptop
