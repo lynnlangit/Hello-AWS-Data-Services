@@ -8,7 +8,7 @@ Use the AWS Deep Learning AMI image to create a pre-loaded EC2 instance.  Search
 
 ### AWS Deep Learning AMI (Ubuntu 18.04)
 
-NOTE: The most current version is `Deep Learning AMI (Amazon Linux) Version 39.1` - ami-030c83cfbb321b081  
+NOTE: The most current version is `Deep Learning AMI (Amazon Linux) Version 39.1` - It is `ami-030c83cfbb321b081`.  
 This includes: MXNet-1.7.0 & 1.6.0, TensorFlow-2.4.0, 2.1.2 & 1.15.4, PyTorch-1.4.0 & 1.7.1, EI, & others. NVIDIA CUDA, cuDNN, NCCL, Intel MKL-DNN, Docker, NVIDIA-Docker & EFA support  
 
 AWS Deep Learning AMI are built and optimized for building, training, debugging, and serving deep learning models in EC2 with popular frameworks such as TensorFlow, MXNet, PyTorch, and more. Deep learning frameworks are installed in Conda environments to provide a reliable and isolated environment for practitioners. The AWS Deep Learning AMI is provided at no additional charge to Amazon EC2 users. Deep Learning frameworks are pre-configured with latest versions of NVIDIA CUDA, cuDNN and Intel acceleration libraries such as MKL-DNN for high performance across CPU and GPU AWS EC2 instance types.
