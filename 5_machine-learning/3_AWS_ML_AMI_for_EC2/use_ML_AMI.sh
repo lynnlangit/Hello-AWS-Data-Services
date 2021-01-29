@@ -2,6 +2,8 @@
 # you may have to request a service limit for your AWS account
 # the default instance service limit is ZERO
 
+# from https://aws.amazon.com/getting-started/hands-on/get-started-dlami/
+
 ####################### Prepare ###################################
 # 0a. Request a service limit increase for instance type 'p2.xlarge'
 #       Follow the instuctions on this page: https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html
