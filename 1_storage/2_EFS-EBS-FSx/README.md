@@ -4,7 +4,7 @@
 
 AWS includes a number of file storage options services.  These include S3, EBS, EFS and more.  Details and comparison chart below.  
 
-<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/s3-to-glacier.png" width=600>
+<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/s3-ebs-efs-fsx.png" width=600>
 
 ### Amazon S3 (Simple Object Storage) and Glacier
 - provides simple **object storage using buckets** w/unique names - also archiving via Glacier service vaults
