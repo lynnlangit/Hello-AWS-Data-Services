@@ -15,7 +15,7 @@ AWS includes a number of file storage options services.  These include S3, EBS, 
 - Use cases: hosting website images and videos, data analytics, and both mobile and web applications
 
 ### AWS EBS (Elastic Block Storage) 
-- provides persistent block-level data storage as a **volume mounted to one EC2 VM instance**
+- provides persistent block-level data storage as an **ELASTIC volume mounted to one EC2 VM instance**
 - EBS stores files in multiple volumes called blocks, which act as separate hard drives - re-use from EBS snapshots
 - EBS devices are more flexible and offer higher performance than regular file storage
 - Learn more about EBS [common operations on volumes](https://cloud.netapp.com/blog/ebs-volumes-5-lesser-known-functions#5less-known)
