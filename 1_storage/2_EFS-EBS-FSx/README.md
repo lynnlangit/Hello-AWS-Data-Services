@@ -1,7 +1,5 @@
 # AWS Storage Options Compared
 
-Info updated and originally from this article - https://dzone.com/articles/confused-by-aws-storage-options-s3-ebs-amp-efs-explained 
-
 ## Core Storage Options
 
 AWS includes a number of file storage options services.  These include S3, EBS, EFS and more.  Details and comparison chart below.  
@@ -13,6 +11,7 @@ AWS includes a number of file storage options services.  These include S3, EBS, 
 - S3 manages data as objects, access the S3 service from anywhere on the internet depending on IAM permissions (can be public)
 - S3 storage classes impact latency and cost - [more](https://aws.amazon.com/s3/storage-classes)
 - Learn more about Amazon S3 [common operations on objects and buckets](https://docs.aws.amazon.com/AmazonS3/latest/dev/using-with-s3-actions.html)
+- Can speed up data transfer using S3 Transfer Acceleration - see [speed test](http://s3-accelerate-speedtest.s3-accelerate.amazonaws.com/en/accelerate-speed-comparsion.html)
 - Use cases: hosting website images and videos, data analytics, and both mobile and web applications
 
 ### AWS EBS (Elastic Block Storage) 
@@ -46,4 +45,9 @@ AWS includes a number of file storage options services.  These include S3, EBS, 
 - Learn more about Storage Gateway [common operations on file systems](https://docs.aws.amazon.com/storagegateway/latest/userguide/StorageGatewayConcepts.html)
 - Use cases: cloud-busting, backup/archive, tiered storage
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/storage-gateway.png" width=800>
+
+----
+### Source
+
+Info on this page sourced (and updated) from this article - https://dzone.com/articles/confused-by-aws-storage-options-s3-ebs-amp-efs-explained 
 
