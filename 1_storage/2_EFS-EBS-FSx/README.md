@@ -32,8 +32,8 @@ AWS includes a number of file storage options services.  These include S3, EBS, 
 
 ## Other Storage Service
 
-### Amazon FSx for Lustre (for Windows)
-- provides shared, elastic file storage system as a **file system mounted to EC2 Windows-based VM instances**
+### Amazon FSx for Lustre (or for Windows File Server)
+- provides shared, elastic file storage system as a **file system mounted to multiple EC2 VM instances** (Linux or Windows)
 - FSx for Windows is a managed Windows Servers that runs Windows SMB-based file services
 - FSx uses file systems and backups and uses the Volume Shadow Copy Service (VSS) in Microsoft Windows
 - Learn more about FSx [common operation on file systems](https://docs.aws.amazon.com/fsx/latest/WindowsGuide/using-file-shares.html)
