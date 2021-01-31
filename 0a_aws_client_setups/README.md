@@ -4,16 +4,17 @@
 
 For study purpose, it's generally quicker and simpler to use browser-based tools.  These tools require significantly less configuration and setup time than the alternative (which would be to download tools to your laptop).  For this reason I use (and show) browser-based tools in the majority of my AWS courses.  
 
-- Use **AWS WebUI / console**
+- Use **AWS Console**
     - Create dedicated AWS account, login to AWS Web UI at https://console.aws.amazon.com/
     - Create AWS Budget (and alert) for your daily service spending limit
     - (Optional) create non-root IAM user and login with those user credentials
     - (Optional) add MFA (multi-factor authentication) to user account 
     
- - Use **AWS integrated query editor(s)**
-    - Aurora Serverless (RDS) now includes an integrated web-based SQL query editor (in the AWS WebUI)
-    - DynamoDB now includes the PartiSQL integrated web-based table query editor (in the AWS WebUI)
-    - EMR now includes Jupter notebook interfaces
+ - Use **AWS integrated SQL query editor(s) or notebooks**
+    - Aurora Serverless (RDS) now includes an integrated web-based SQL query editor 
+    - DynamoDB now includes the PartiSQL integrated web-based table query editor 
+    - Redshift includes a Query Editor 
+    - EMR now includes Jupter notebook interface (optional)
     
  - Use **AWS cloud shell**
     - AWS CloudShell is a browser-based shell that makes it easy to securely manage, explore, and interact with your AWS resources using the AWS CLI or SDKs
@@ -51,4 +52,4 @@ Main AWS Tools site -- https://aws.amazon.com/tools/.  Here you can download too
     - For RDS SQL 
         - can use MySQLWorkbench (for RDS Aroura, MySQL)
         - can use SQLOperationsStudio (for RDS SQL Server)
-    - For multiple database - can use trial version of Navicat
+    - For multiple database types - you can use trial version of the 3rd party Navicat tool 
