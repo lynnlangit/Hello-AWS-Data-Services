@@ -35,6 +35,9 @@ A unit of work (such as a shell script, a Linux executable, or a Docker containe
 - create a MANAGED compute environment to specify desired compute type (Fargate or EC2) at several levels of detail
     - set up compute environments that use a particular type of EC2 instance, a particular model such as c5.2xlarge or m5.10xlarge, or simply specify that you want to use the newest instance types
     - specify the minimum, desired, and maximum number of vCPUs for the environment, along with the amount you are willing to pay for a Spot Instance as a percentage of the On-Demand Instance price and a target set of VPC subnets. 
-- create an Unmanaged compute environment when you want to control scaling manually 
+    - use an 'allocation strategy' two possible settings 
+    - choose how Batch launches instances on your behalf
+        - use `Best Fit Progressive` for On-Demand CEs and Spot Capacity Optimized for Spot CEs. This will make it much more likely Batch will be able to secure the needed capacity for your workloads by pulling from diverse instance types --OR--
+        - ensure Batch chooses only the lowest priced instance types appropriate to your jobs, you can select the `Best Fit` strategy
+- create an UNMANAGED compute environment when you want to control scaling manually 
 
-Uses an 'allocation strategy' two possible settings --> Allocation Strategies allow you to choose how Batch launches instances on your behalf. We recommend `Best Fit Progressive` for On-Demand CEs and Spot Capacity Optimized for Spot CEs. This will make it much more likely Batch will be able to secure the needed capacity for your workloads by pulling from diverse instance types. However, if you want to ensure Batch chooses only the lowest priced instance types appropriate to your jobs, you can select the `Best Fit` strategy.
