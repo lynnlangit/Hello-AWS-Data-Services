@@ -34,6 +34,7 @@ AWS includes a number of file storage options services.  These include S3, EBS, 
 
 ### Amazon FSx for Lustre
 - provides shared, elastic file storage system as a **file system mounted to multiple EC2 VM instances** (Linux)
+- can work w/S3 as data repo or work as a file system
 - learn about [performance and optimization](https://docs.aws.amazon.com/fsx/latest/LustreGuide/performance.html) and [pricing](https://aws.amazon.com/fsx/lustre/pricing/)
 - Use cases: high-performance file system workloads such as such as machine learning, high performance computing (HPC), video processing, and financial modeling.
 
