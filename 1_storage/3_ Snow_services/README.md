@@ -19,14 +19,15 @@ AWS Snow Family Services are used to store and transfer various amount of files 
 
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/snow-process.png" width=800>
 
-- Use the AWS Console to create a (transfer) Job - can download AWS OpsHub for local device authentication
+- Use the AWS Console to create a (transfer) Job 
+  - can download AWS OpsHub for local device authentication
 - Select (and order) your Snow device
 - Receive and power up your device
 - Connect your device to your network
 - Start the transfer job
-- Verify job completion
-- Unplug and power down your device
-- Veriy return shipping address label (on embedded Kindle)
+  - Verify job completion
+  - Unplug and power down your device
+  - Veriy return shipping address label (on embedded Kindle)
 - Send device to AWS
  - Verify data transfer
 
