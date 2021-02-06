@@ -5,6 +5,7 @@
 - AWS is the only quantum computing cloud service with a quantum annealer
 - Shown above is an example quantum workflow
 - AWS Braket - https://aws.amazon.com/braket/
+- 2021 AWS published papers on Quantum Computing - https://www.amazon.science/blog/aws-scientists-coauthor-13-qip-2021-quantum-computing-papers
 
 ## Dev.to post
 
