@@ -19,13 +19,13 @@ AWS includes a number of file storage options services.  These include S3, EBS, 
 - EBS stores files in multiple volumes called blocks, which act as separate hard drives - re-use from EBS snapshots
 - EBS devices are more flexible and offer higher performance than regular file storage
 - Learn more about EBS [common operations on volumes](https://cloud.netapp.com/blog/ebs-volumes-5-lesser-known-functions#5less-known)
-- Use cases: business continuity, software testing, and database management
+- Use cases: Workloads that use a consistent level of resources --> business continuity, software testing, and database management
 
 ### AWS EFS (Elastic File Storage)
 - provides shared, elastic file storage system (grows/shrinks as you add/remove files) as a **file system mounted to EC2 VM instances**
 - EFS is a managed NAS filer based on NFS v4, with data organized into directories and subdirectories
 - Learn more about EFS [common operation on file systems](https://docs.aws.amazon.com/efs/latest/ug/wt1-getting-started.html) & recent perf improvements -[link](https://aws.amazon.com/about-aws/whats-new/2021/01/amazon-elastic-file-system-triples-read-throughput/)
-- Use cases: SaaS applications and content management systems
+- Use cases: Workloads with SPIKES --> SaaS applications and content management systems
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/storage-comparison.png" width=800>
 
 ---
