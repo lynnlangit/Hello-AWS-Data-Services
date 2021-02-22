@@ -25,6 +25,7 @@ AWS includes a number of file storage options services.  These include S3, EBS, 
 
 ### AWS EFS (Elastic File Storage)
 - provides shared, elastic file storage system (grows/shrinks as you add/remove files) as a **file system mounted to EC2 VM instances**
+- configure to use **Bursting** --or-- **Provisioned Throughput** mode
 - EFS is a managed NAS filer based on NFS v4, with data organized into directories and subdirectories
 - Learn more about EFS [common operation on file systems](https://docs.aws.amazon.com/efs/latest/ug/wt1-getting-started.html) & recent perf improvements -[link](https://aws.amazon.com/about-aws/whats-new/2021/01/amazon-elastic-file-system-triples-read-throughput/)
 - Use cases: Workloads with SPIKES --> SaaS applications and content management systems
