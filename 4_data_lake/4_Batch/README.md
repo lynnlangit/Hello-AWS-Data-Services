@@ -5,10 +5,10 @@
 From the AWS Docs - [link](https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html)
 
 - AWS Batch is a Regional service that simplifies running batch jobs across multiple Availability Zones within a Region. 
-- create AWS Batch compute environments within a new or existing VPC
-- associate a compute environment with a job queue
-- define job definitions that specify which Docker container images to run your jobs
-- pull stored container images from container registries (ECR on AWS or others, i.e. DockerHub...)
+- create AWS Batch **compute environments** within a new or existing VPC
+    - associate a compute environment with a job queue
+- define **job definitions** that specify which Docker container images to run your jobs
+    - pull stored container images from container registries (ECR on AWS or others, i.e. DockerHub...)
 
 ## AWS Batch Components
 
@@ -31,13 +31,13 @@ A unit of work (such as a shell script, a Linux executable, or a Docker containe
 - assign priority values (1 to 1000) for these compute environments and even across job queues themselves. For example, you could have a high priority queue that you submit time-sensitive jobs to, and a low priority queue for jobs that can run anytime when compute resources are cheaper.
 
 ### Compute Environment
-- create a compute environment to use a set of (managed or unmanaged) compute resources to run jobs.
-- create a MANAGED compute environment to specify desired compute type (Fargate or EC2) at several levels of detail
+Create a compute environment to use a set of (managed or unmanaged) compute resources to run jobs 
+- create a **MANAGED** compute environment to specify desired compute type (Fargate or EC2) at several levels of detail
     - set up compute environments that use a particular type of EC2 instance, a particular model such as c5.2xlarge or m5.10xlarge, or simply specify that you want to use the newest instance types
     - specify the minimum, desired, and maximum number of vCPUs for the environment, along with the amount you are willing to pay for a Spot Instance as a percentage of the On-Demand Instance price and a target set of VPC subnets. 
-    - use an 'allocation strategy' two possible settings 
-    - choose how Batch launches instances on your behalf
+        - use an 'allocation strategy' two possible settings 
+        - choose how Batch launches instances on your behalf
         - use `Best Fit Progressive` for On-Demand CEs and Spot Capacity Optimized for Spot CEs. This will make it much more likely Batch will be able to secure the needed capacity for your workloads by pulling from diverse instance types --OR--
         - ensure Batch chooses only the lowest priced instance types appropriate to your jobs, you can select the `Best Fit` strategy
-- create an UNMANAGED compute environment when you want to control scaling manually 
+- create an **UNMANAGED** compute environment when you want to control scaling manually 
 
