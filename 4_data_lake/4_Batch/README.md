@@ -32,12 +32,16 @@ A unit of work (such as a shell script, a Linux executable, or a Docker containe
 
 ### Compute Environment
 Create a compute environment to use a set of (managed or unmanaged) compute resources to run jobs 
-- create a **MANAGED** compute environment to specify desired compute type (Fargate or EC2) at several levels of detail
-    - set up compute environments that use a particular type of EC2 instance, a particular model such as c5.2xlarge or m5.10xlarge, or simply specify that you want to use the newest instance types
-    - specify the minimum, desired, and maximum number of vCPUs for the environment, along with the amount you are willing to pay for a Spot Instance as a percentage of the On-Demand Instance price and a target set of VPC subnets. 
-        - use an 'allocation strategy' two possible settings 
-        - choose how Batch launches instances on your behalf
-        - use `Best Fit Progressive` for On-Demand CEs and Spot Capacity Optimized for Spot CEs. This will make it much more likely Batch will be able to secure the needed capacity for your workloads by pulling from diverse instance types --OR--
-        - ensure Batch chooses only the lowest priced instance types appropriate to your jobs, you can select the `Best Fit` strategy
-- create an **UNMANAGED** compute environment when you want to control scaling manually 
+- create a **MANAGED** compute environment to have AWS scale and configure your instances
+    - specify desired compute type: Fargate, Fargate Spot, EC2 on-demand --or-- EC2 spot
+    - for Fargate, specify **max CPUs**
+    - for EC2...
+        - choose EC2 allowed **instance types**, such as c5.2xlarge or m5.10xlarge --or-- select **optimal**
+        - specify the minimum, desired, and maximum **number of vCPUs** for the environment
+            - choose  the amount you are willing to pay for a Spot Instance as a percentage of the On-Demand Instance price and a target set of VPC subnets. 
+        - choose an **allocation strategy** two possible settings, which defined how Batch launches instances on your behalf
+            - `BEST_FIT` for lowest priced instance types
+            - `BEST_FIT_PROGRESSIVE` for on-Demand CEs and Spot Capacity Optimized for Spot CEs, for ensuring spot instance will be available to handle bursting
+            - `SPOT_CAPACITY_OPTIMIZED` as above, for **SPOT** Provisioning
+- create an **UNMANAGED** compute environment when you want to control configuration and scaling manually 
 
