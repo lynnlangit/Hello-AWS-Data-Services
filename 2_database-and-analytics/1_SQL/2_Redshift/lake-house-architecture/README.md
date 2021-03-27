@@ -11,3 +11,20 @@ With an Amazon Redshift lake house architecture, you can:
 - Easily query data in your data lake and write data back to your data lake in open formats.
 - Use familiar SQL statements to combine and process data across all your data stores.
 - Execute queries on live data in your operational databases without requiring any data loading and ETL pipelines.
+
+## Patterns
+
+From this [blog post](https://aws.amazon.com/blogs/big-data/etl-and-elt-design-patterns-for-lake-house-architecture-using-amazon-redshift-part-1/)
+
+## Features
+
+Amazon Redshift lake house architecture is powered by the following capabilities:
+
+### Amazon Redshift Spectrum
+Query open format data directly in the Amazon S3 data lake without having to load the data or duplicating your infrastructure. Using the Amazon Redshift Spectrum feature, you can query open file formats such as Apache Parquet, ORC, JSON, Avro, and CSV. Follow this [step-by-step tutorial](https://docs.aws.amazon.com/redshift/latest/dg/c-getting-started-using-spectrum.html) to get started.
+
+### Data Lake Export
+Save the results of an Amazon Redshift query directly to your S3 data lake in an open file format (Apache Parquet) using Data Lake Export. You can then analyze this data using Amazon Redshift Spectrum feature as well as other AWS services such as Sagemaker for machine learning, and EMR for ETL operations. Watch this [5-minute video](https://www.youtube.com/watch?v=VXeQ8KcumGE) to get started.
+
+### Federated Query
+Federated Query enables Amazon Redshift to query data directly in Amazon RDS and Aurora PostgreSQL stores. This allows you to incorporate timely and up-to-date operational data in your reporting and BI applications, without any ETL operations. Watch this [5-minute video](https://youtu.be/Rt5ZjPBtFLo) or read this [tutorial](https://docs.aws.amazon.com/redshift/latest/dg/federated-overview.html) to get started.
