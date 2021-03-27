@@ -16,6 +16,8 @@ With an Amazon Redshift lake house architecture, you can:
 
 From this [blog post](https://aws.amazon.com/blogs/big-data/etl-and-elt-design-patterns-for-lake-house-architecture-using-amazon-redshift-part-1/)
 
+![Lake House Architecture](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/lake-house-arch.png)
+
 ## Features
 
 Amazon Redshift lake house architecture is powered by the following capabilities:
