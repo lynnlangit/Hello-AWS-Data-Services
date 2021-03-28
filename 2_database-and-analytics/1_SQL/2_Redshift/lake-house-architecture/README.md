@@ -71,5 +71,5 @@ In addition, avoid complex operations like DISTINCT or ORDER BY on more than one
 
 Amazon Redshift optimizer can use external table statistics to generate more optimal execution plans. Without statistics, an execution plan is generated based on heuristics with the assumption that the S3 table is relatively large. It is recommended to set the table statistics (numRows) manually for S3 external tables.
 
-For more information on Amazon Redshift Spectrum best practices, see [Twelve Best Practices for Amazon Redshift Spectrum](https://aws.amazon.com/blogs/big-data/10-best-practices-for-amazon-redshift-spectrum/) and How to enable cross-account Amazon Redshift COPY and Redshift Spectrum query for AWS KMS–encrypted data in Amazon S3.
+For more information on Amazon Redshift Spectrum best practices, see [Twelve Best Practices for Amazon Redshift Spectrum](https://aws.amazon.com/blogs/big-data/10-best-practices-for-amazon-redshift-spectrum/) and How to enable cross-account Amazon Redshift COPY and Redshift Spectrum query for AWS KMS–encrypted data in Amazon S3.  Also see this article - https://aws.amazon.com/blogs/big-data/etl-and-elt-design-patterns-for-lake-house-architecture-using-amazon-redshift-part-2/
 
