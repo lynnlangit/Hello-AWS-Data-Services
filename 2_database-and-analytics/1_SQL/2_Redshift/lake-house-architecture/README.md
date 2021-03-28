@@ -30,3 +30,46 @@ Save the results of an Amazon Redshift query directly to your S3 data lake in an
 
 ### Federated Query
 Federated Query enables Amazon Redshift to query data directly in Amazon RDS and Aurora PostgreSQL stores. This allows you to incorporate timely and up-to-date operational data in your reporting and BI applications, without any ETL operations. Watch this [5-minute video](https://youtu.be/Rt5ZjPBtFLo) or read this [tutorial](https://docs.aws.amazon.com/redshift/latest/dg/federated-overview.html) to get started.
+
+---
+
+You can also scale the unloading operation by using the Concurrency Scaling feature of Amazon Redshift. This provides a scalable and serverless option to bulk export data in an open and analytics-optimized file format using familiar SQL.
+
+### Best practices
+The following recommended practices can help you to optimize your ELT and ETL workload using Amazon Redshift.
+
+### Analyze requirements to decide ELT versus ETL
+MPP architecture of Amazon Redshift and its Spectrum feature is efficient and designed for high-volume relational and SQL-based ELT workload (joins, aggregations) at a massive scale. A common practice to design an efficient ELT solution using Amazon Redshift is to spend sufficient time to analyze the following:
+
+Type of data from source systems (structured, semi-structured, and unstructured)
+Nature of the transformations required (usually encompassing cleansing, enrichment, harmonization, transformations, and aggregations)
+Row-by-row, cursor-based processing needs versus batch SQL
+Performance SLA and scalability requirements considering the data volume growth over time
+Cost of the solution
+This helps to assess if the workload is relational and suitable for SQL at MPP scale.
+
+### Key considerations for ELT
+For ETL and ELT both, it is important to build a good physical data model for better performance for all tables, including staging tables with proper data types and distribution methods. A dimensional data model (star schema) with fewer joins works best for MPP architecture including ELT-based SQL workloads. Consider using a TEMPORARY table for intermediate staging tables as feasible for the ELT process for better write performance, because temporary tables only write a single copy.
+
+A common rule of thumb for ELT workloads is to avoid row-by-row, cursor-based processing (a commonly overlooked finding for stored procedures). This is sub-optimal because such processing needs to happen on the leader node of an MPP database like Amazon Redshift. Instead, the recommendation for such a workload is to look for an alternative distributed processing programming framework, such as Apache Spark.
+
+Several hundreds to thousands of single record inserts, updates, and deletes for highly transactional needs are not efficient using MPP architecture. Instead, stage those records for either a bulk UPDATE or DELETE/INSERT on the table as a batch operation.
+
+With the external table capability of Redshift Spectrum, you can optimize your transformation logic using a single SQL as opposed to loading data first in Amazon Redshift local storage for staging tables and then doing the transformations on those staging tables.
+
+### Key considerations for data lake export
+When you unload data from Amazon Redshift to your data lake in S3, pay attention to data skew or processing skew in your Amazon Redshift tables. The UNLOAD command uses the parallelism of the slices in your cluster. Hence, if there is a data skew at rest or processing skew at runtime, unloaded files on S3 may have different file sizes, which impacts your UNLOAD command response time and query response time downstream for the unloaded data in your data lake.
+
+To maximize query performance, Amazon Redshift attempts to create Parquet files that contain equally sized 32 MB row groups. The MAXFILESIZE value that you specify is automatically rounded down to the nearest multiple of 32 MB. For example, if you specify MAXFILESIZE 200 MB, then each Parquet file unloaded is approximately 192 MB (32 MB row group x 6 = 192 MB). To decide on the optimal file size for better performance for downstream consumption of the unloaded data, it depends on the tool of choice you make. When Redshift Spectrum is your tool of choice for querying the unloaded Parquet data, the 32 MB row group and 6.2 GB default file size provide good performance. In addition, Redshift Spectrum might split the processing of large files into multiple requests for Parquet files to speed up performance. Similarly, if your tool of choice is Amazon Athena or other Hadoop applications, the optimal file size could be different based on the degree of parallelism for your query patterns and the data volume. Irrespective of the tool of choice, we also recommend that you avoid too many small KB-sized files. Similarly, for S3 partitioning, a common practice is to have the number of partitions per table on S3 to be up to several hundreds. You can do so by choosing low cardinality partitioning columns such as year, quarter, month, and day as part of the UNLOAD command.
+
+To get the best throughput and performance under concurrency for multiple UNLOAD commands running in parallel, create a separate queue for unload queries with Concurrency Scaling turned on. This lets Amazon Redshift burst additional Concurrency Scaling clusters as required.
+
+### Key considerations for Redshift Spectrum for ELT
+To get the best performance from Redshift Spectrum, pay attention to the maximum pushdown operations possible, such as S3 scan, projection, filtering, and aggregation, in your query plans for a performance boost. This is because you want to utilize the powerful infrastructure underneath that supports Redshift Spectrum. Using predicate pushdown also avoids consuming resources in the Amazon Redshift cluster.
+
+In addition, avoid complex operations like DISTINCT or ORDER BY on more than one column and replace them with GROUP BY as applicable. Amazon Redshift can push down a single column DISTINCT as a GROUP BY to the Spectrum compute layer with a query rewrite capability underneath, whereas multi-column DISTINCT or ORDER BY operations need to happen inside Amazon Redshift cluster.
+
+Amazon Redshift optimizer can use external table statistics to generate more optimal execution plans. Without statistics, an execution plan is generated based on heuristics with the assumption that the S3 table is relatively large. It is recommended to set the table statistics (numRows) manually for S3 external tables.
+
+For more information on Amazon Redshift Spectrum best practices, see [Twelve Best Practices for Amazon Redshift Spectrum](https://aws.amazon.com/blogs/big-data/10-best-practices-for-amazon-redshift-spectrum/) and How to enable cross-account Amazon Redshift COPY and Redshift Spectrum query for AWS KMS–encrypted data in Amazon S3.
+
