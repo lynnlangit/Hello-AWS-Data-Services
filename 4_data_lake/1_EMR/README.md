@@ -8,6 +8,7 @@ For more code examples and sample data, see companion Repo for other courses
 ## AWS EMR Deployment Options
 
 - AWS EMR can run on EC2 or on EKS - https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/emr-eks.html
+- EMR Containers best practices guides - https://aws.github.io/aws-emr-containers-best-practices/
 - About EMR scaling - https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-scaling.html
 - Conceptual Deployment options shown in the diagram below.
 
