@@ -1,6 +1,7 @@
 # Quantum Computing
 
-This section is a very brief intro the AWS QaaS offer.  For more info on cloud-based quantum computing in general, see this repo -- https://github.com/lynnlangit/learning-quantum
+This section is a very brief intro the AWS QaaS offer.    
+For more info on cloud-based quantum computing in general, see this repo -- https://github.com/lynnlangit/learning-quantum
 
 ---
 
