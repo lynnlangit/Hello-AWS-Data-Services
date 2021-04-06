@@ -1,5 +1,9 @@
 # Quantum Computing
 
+This section is a very brief intro the AWS QaaS offer.  For more info on cloud-based quantum computing in general, see this repo -- https://github.com/lynnlangit/learning-quantum
+
+---
+
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/aws-braket-workflow.png" width=800>
 
 - AWS is the only quantum computing cloud service with a quantum annealer
