@@ -5,7 +5,7 @@
 - Arch -> From AWS Docs - [link](https://docs.aws.amazon.com/redshift/latest/dg/c_high_level_system_architecture.html)
 - Sample DB schema - [link](https://docs.aws.amazon.com/redshift/latest/dg/c_sampledb.html)
 - Sample DB scripts - [link](https://docs.aws.amazon.com/redshift/latest/gsg/rs-gsg-create-sample-db.html)
-- Redshift DW perf comparison -[link](https://aws.amazon.com/blogs/big-data/get-up-to-3x-better-price-performance-with-amazon-redshift-than-other-cloud-data-warehouses/)
+- Redshift DW perf comparison - [link](https://aws.amazon.com/blogs/big-data/get-up-to-3x-better-price-performance-with-amazon-redshift-than-other-cloud-data-warehouses/)
 
 ## Use AWS Redshift Query Editor
 
