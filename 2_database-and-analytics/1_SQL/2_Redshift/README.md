@@ -31,6 +31,12 @@ However it may take some time for the new role to be applied.  Alternatively, yo
 
 ## Newer Redshift  Features
 
+### Redshift AQUA (Advanced Query Accelerator)
+
+- from Jeff Barr blog - https://aws.amazon.com/blogs/aws/new-aqua-advanced-query-accelerator-for-amazon-redshift/
+
+"Today we are making the ra3.4xl and ra3.16xl nodes even more powerful with the addition of AQUA (Advanced Query Accelerator). Building on the caches that I told you about earlier, and taking advantage of the AWS Nitro System and custom FPGA-based acceleration, AQUA pushes the computation needed to handle reduction and aggregation queries closer to the data. This reduces network traffic, offloads work from the CPUs in the RA3 nodes, and allows AQUA to improve the performance of those queries by up to 10x, at no extra cost and without any code changes. AQUA also makes use of a fast, high-bandwidth connection to Amazon Simple Storage Service (S3)."
+
 ### Redshift Spectrum
 
 Amazon Redshift Spectrum ([announcement](https://aws.amazon.com/blogs/big-data/amazon-redshift-spectrum-extends-data-warehousing-out-to-exabytes-no-loading-required/)) resides on dedicated Amazon Redshift servers that are independent of your cluster. Redshift Spectrum pushes many compute-intensive tasks, such as predicate filtering and aggregation, down to the Redshift Spectrum layer. Redshift Spectrum queries use much less of your cluster's processing capacity than other queries. Redshift Spectrum also scales intelligently. Based on the demands of your queries, Redshift Spectrum can potentially use thousands of instances to take advantage of massively parallel processing.
