@@ -33,6 +33,11 @@ Federated Query enables Amazon Redshift to query data directly in Amazon RDS and
 
 ### RA3 Node Types
 
+Use Redhisft RA3 node types to take advantage of improved performance and to get more storage capacity. RA3 nodes provide the following advantages:
+- They are flexible to grow your compute capacity without increasing your storage costs. And they scale your storage without over-provisioning compute capacity.
+- They use high performance SSDs for your hot data and Amazon S3 for cold data. Thus they provide ease of use, cost-effective storage, and high query performance.
+- They use high bandwidth networking built on the AWS Nitro System to further reduce the time taken for data to be offloaded to and retrieved from Amazon S3.
+
 Consider choosing RA3 node types in these cases, learn more - [link](https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-clusters.html#rs-ra3-node-types):
 
 - You need the flexibility to scale and pay for compute separate from storage.
