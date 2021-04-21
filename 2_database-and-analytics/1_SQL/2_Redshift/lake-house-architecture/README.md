@@ -31,6 +31,14 @@ Save the results of an Amazon Redshift query directly to your S3 data lake in an
 ### Federated Query
 Federated Query enables Amazon Redshift to query data directly in Amazon RDS and Aurora PostgreSQL stores. This allows you to incorporate timely and up-to-date operational data in your reporting and BI applications, without any ETL operations. Watch this [5-minute video](https://youtu.be/Rt5ZjPBtFLo) or read this [tutorial](https://docs.aws.amazon.com/redshift/latest/dg/federated-overview.html) to get started.
 
+### RA3 Node Types
+
+Consider choosing RA3 node types in these cases, learn more - [link](https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-clusters.html#rs-ra3-node-types):
+
+- You need the flexibility to scale and pay for compute separate from storage.
+- You query a fraction of your total data.
+- Your data volume is growing rapidly or is expected to grow rapidly.
+- You want the flexibility to size the cluster based only on your performance needs.
 ---
 
 You can also scale the unloading operation by using the Concurrency Scaling feature of Amazon Redshift. This provides a scalable and serverless option to bulk export data in an open and analytics-optimized file format using familiar SQL.
