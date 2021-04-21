@@ -14,6 +14,15 @@ To create a data lake with AWS Lake Formation...
 - Your users can then access a centralized catalog of data which describes available data sets and their appropriate usage
 - Your users then leverage these data sets with their choice of analytics and machine learning services, like Amazon EMR for Apache Spark, Amazon Redshift Spectrum, and Amazon Athena. 
 
+## More Info
+
+- More info - https://aws.amazon.com/lake-formation    
+- FAQ - https://aws.amazon.com/lake-formation/faqs/
+- Workshop - https://lakeformation.workshop.aws/
+
+<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/lake-formation.png" width=800>
+
+
 ## Newly Released Features
 
 AWS Lake Formation transactions, row-level security, and acceleration are now available for preview. These capabilities are available via new, open, and public update and access APIs for data lakes. These APIs extend AWS Lake Formation’s governance capabilities with row-level security. In addition, with this preview, we introduce governed tables - a new Amazon S3 table type that supports atomic, consistent, isolated, and durable (ACID) transactions. AWS Lake Formation transactions simplify ETL script and workflow development, and allow multiple users to concurrently and reliably insert, delete, and modify rows across multiple governed tables. AWS Lake Formation automatically compacts and optimizes storage of governed tables in the background to improve query performance. 
@@ -24,7 +33,3 @@ Amazon EMR now allows you to leverage AWS Lake Formation for defining and enforc
 
 ---
 
-- More info - https://aws.amazon.com/lake-formation    
-- FAQ - https://aws.amazon.com/lake-formation/faqs/
-
-<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/lake-formation.png" width=800>
