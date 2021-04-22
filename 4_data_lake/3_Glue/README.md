@@ -10,6 +10,10 @@ Data integration is the process of preparing and combining data for analytics, m
 
 AWS Glue provides both visual and code-based interfaces to make data integration easier. Users can easily find and access data using the AWS Glue Data Catalog. Data engineers and ETL (extract, transform, and load) developers can visually create, run, and monitor ETL workflows with a few clicks in AWS Glue Studio. Data analysts and data scientists can use AWS Glue DataBrew to visually enrich, clean, and normalize data without writing code. With AWS Glue Elastic Views, application developers can use familiar Structured Query Language (SQL) to combine and replicate data across different data stores.
 
+## AWS Glue Data Brew
+
+Is a graphical interface which allows you to create two types of data processing jobs.  A Glue Data Brew job runs a Glue Data Brew recipe.  Recipes are either for data profiling (statistical analysis of designated datasets) or data transformations.  Glue Data Brew includes common transformations (column rename, fill in duplicated values, etc...) so that you can quickly build custom transformation recipes.
+
 ## Learn More
 
 For more see AWS blogs and resources
