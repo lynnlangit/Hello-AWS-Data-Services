@@ -1,6 +1,6 @@
 # Learning AWS Glue
 
-<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/glue-arch.png" width=800>
+<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/glue-arch.png" width=600>
 
 ## What is it?
 
@@ -14,7 +14,7 @@ AWS Glue provides both visual and code-based interfaces to make data integration
 
 Is a graphical interface which allows you to create two types of data processing jobs.  A Glue Data Brew job runs a Glue Data Brew recipe.  Recipes are either for data profiling (statistical analysis of designated datasets) or data transformations.  Glue Data Brew includes common transformations (column rename, fill in duplicated values, etc...) so that you can quickly build custom transformation recipes.  Shown below is the dataset view of Glue Data Brew.
 
-<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/glue-dataset.png" width=600>
+<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/glue-dataset.png" width=800>
 
 ## Learn More
 
