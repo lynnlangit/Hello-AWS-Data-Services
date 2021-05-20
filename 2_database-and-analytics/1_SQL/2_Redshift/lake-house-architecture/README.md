@@ -24,7 +24,8 @@ The sketch below shows more options in terms of a possible AWS data lake archite
 
 ## Features
 
-Amazon Redshift lake house architecture is powered by the following capabilities:
+- reInvent talk on this topic - https://www.youtube.com/watch?v=35wXL0Q1Dcc
+- Amazon Redshift lake house architecture is powered by the following capabilities:
 
 ### Amazon Redshift Spectrum
 Query open format data directly in the Amazon S3 data lake without having to load the data or duplicating your infrastructure. Using the Amazon Redshift Spectrum feature, you can query open file formats such as Apache Parquet, ORC, JSON, Avro, and CSV. Follow this [step-by-step tutorial](https://docs.aws.amazon.com/redshift/latest/dg/c-getting-started-using-spectrum.html) to get started.
