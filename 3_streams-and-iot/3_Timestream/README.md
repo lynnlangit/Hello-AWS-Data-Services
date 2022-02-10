@@ -6,6 +6,7 @@ The Timestream service on the AWS console includes a number of video tutorials (
 
 ## Key Links
 - @Werner blog post on 'Time Series is the New Black' at https://www.allthingsdistributed.com/2021/06/amazon-timestream-time-series-is-the-new-black.html
+- Timestream architecture at https://docs.aws.amazon.com/timestream/latest/developerguide/architecture.html
 - Open source Timestream tools at https://github.com/awslabs/amazon-timestream-tools
 
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/timestream-tutorials.png" width=800>
