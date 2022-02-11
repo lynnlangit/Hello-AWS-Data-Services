@@ -1,6 +1,6 @@
 # Amazon Timestream
 
-The Timestream service on the AWS console includes a number of video tutorials (see screenshot below). Timestream objects are shown the diagram below (from AWS documentation).  Listed below is info about modeling input data as 'multi-measure records' from the AWS documentation - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/writes.html)
+The Timestream service on the AWS console includes a number of video tutorials. Timestream objects are shown the diagram below (from AWS documentation).  Listed below is info about modeling input data as 'multi-measure records' from the AWS documentation - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/writes.html)
 
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/timestream-objects.png" width=800>
 
