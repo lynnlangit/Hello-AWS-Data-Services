@@ -32,10 +32,11 @@ The following are the benefits of using multi-measure records:
 
 ---
 
-## Key Links
+## Links and Tools
 
 - @Werner blog post on 'Time Series is the New Black' - [link]( https://www.allthingsdistributed.com/2021/06/amazon-timestream-time-series-is-the-new-black.html)
 - Timestream architecture - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/architecture.html)
 - Open source Timestream libraries and tools - [link](https://github.com/awslabs/amazon-timestream-tools)
+- Timestream table visualizer - [link](https://github.com/aws-samples/amazon-timestream-simple-visualizer)
 
 
