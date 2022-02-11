@@ -17,6 +17,11 @@ The following are the benefits of using multi-measure records:
 - **Query simplicity** – With multi-measure records, you don’t need to write complex common table expressions (CTEs) in a query to read multiple measures with the same timestamp. This is because the measures are stored as columns in a single table row. Multi-measure records therefore enable writing simpler queries.
 - **Data modeling flexibility** – Multi-measure records simplify migrating data from existing relational databases to Timestream. Multi-measure records also support additional data types such as TIMESTAMP. This is independent of the measure store retention window, and therefore enables you to store data from the past, present, or future.
 
+## Time Series Functionality
+
+Built-in extentions to SQL for time-based queries.  For example, `CREATE_TIME_SERIES` is an aggregation function that takes all the raw measurements of a time series (time and measure values) and returns a timeseries data type - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/timeseries-specific-constructs.views.html).
+
+Also there are a set of time-based functions - [link[(https://docs.aws.amazon.com/timestream/latest/developerguide/timeseries-specific-constructs.functions.html)
 
 ## Key Links
 - @Werner blog post on 'Time Series is the New Black' at https://www.allthingsdistributed.com/2021/06/amazon-timestream-time-series-is-the-new-black.html
