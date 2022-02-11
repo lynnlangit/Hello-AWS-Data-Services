@@ -1,6 +1,9 @@
 # Amazon Timestream
 
-The Timestream service on the AWS console includes a number of video tutorials. Timestream objects are shown the diagram below (from AWS documentation).  Listed below is info about modeling input data as 'multi-measure records' from the AWS documentation - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/writes.html)
+The Timestream service on the AWS console includes a number of video tutorials. Timestream objects are shown the diagram below (from AWS documentation). 
+- Data can be stored into flexbile NoSQL tables as 'single-measure' or 'multi-measure' records.  Storage type affect storage cost, query syntax and query performance
+- Data is stored into memory or magnetic storage, as with storage structure, storage location affects cost and query performance.
+- Listed below is info about modeling input data as 'multi-measure records' from the AWS documentation - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/writes.html)
 
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/timestream-objects.png" width=800>
 
