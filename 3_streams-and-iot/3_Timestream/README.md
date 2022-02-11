@@ -21,9 +21,9 @@ The following are the benefits of using multi-measure records:
 
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/functions.png" width=300 align=left>
 
-Timestream includs several built-in extentions to SQL for time-based queries.  For example, `CREATE_TIME_SERIES` is an aggregation function that takes all the raw measurements of a time series (time and measure values) and returns a timeseries data type - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/timeseries-specific-constructs.views.html).
-
-Also there are a set of time-based functions (shown in the graphic to the left) - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/timeseries-specific-constructs.functions.html)
+- Timestream includs several built-in extentions to SQL for time-based queries.  For example, `CREATE_TIME_SERIES` is an aggregation function that takes all the raw measurements of a time series (time and measure values) and returns a timeseries data type - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/timeseries-specific-constructs.views.html).
+- Also there are a set of time-based functions (shown in the graphic to the left) - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/timeseries-specific-constructs.functions.html)
+- Links to example time series queries - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/sample-queries.devops-scenarios.html)
 
 ---
 
