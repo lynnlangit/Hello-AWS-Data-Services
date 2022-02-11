@@ -5,7 +5,7 @@ The Timestream service on the AWS console includes a number of video tutorials (
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/timestream-objects.png" width=800>
 
 ## Multi-measure records
-With multi-measure records, you can store your time-series data in a more compact format in the memory and magnetic store, which helps lower data storage costs. Also, the compact data storage lends itself to writing simpler queries for data retrieval, improves query performance, and lowers the cost of queries.
+With multi-measure records, you can store your time-series data in a more compact format in the memory and magnetic store, which helps lower data storage costs. Also, the compact data storage lends itself to writing simpler queries for data retrieval, improves query performance, and lowers the cost of queries. Best practices for data modeling - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/data-modeling.html)
 
 Furthermore, multi-measure records also support the TIMESTAMP data type for storing more than one timestamp in a time-series record. This timestamp is independent of the memory store retention period and can support values in the past, present, or future. Multi-measure records therefore help improve performance, cost, and query simplicity—and offer more flexibility for storing different types of correlated measures.
 
