@@ -1,18 +1,19 @@
 # Amazon Timestream
 
 The Timestream service on the AWS console includes a number of video tutorials. An example of timestream data storage objects is shown the diagram below (from AWS documentation). 
-- Data can be stored into flexbile NoSQL tables as 'single-measure' or 'multi-measure' records.  Storage type affect storage cost, query syntax and query performance
+- Data can be stored into flexible, scalable NoSQL tables as 'single-measure' or 'multi-measure' records.  The storage type affects storage cost, query syntax and query performance
 - Data is stored by time-based retention periods into memory (hrs/days/wks/mos) or magnetic (days/wks/mos/yrs) storage, as with storage structure, storage location affects cost and query performance.  
-  - If you expect late arrival data to occasionally arrive with timestamps earlier than the memory store retention, you should enable magnetic store writes for your table. 
-  - Once you set the `EnableMagneticStoreWrites` in the `MagneticStoreWritesProperties` for a table, the table will accept data with timestamp earlier than your memory store retention but .
+  - Enable `EnableMagneticStoreWrites` for Timestream tables if you expect late arrival data to occasionally arrive with timestamps **earlier** than the memory store retention
+  - If `EnableMagneticStoreWrites` in the `MagneticStoreWritesProperties` for a table is checked, then that table will accept data with timestamp earlier than your configured memory store retention period
 - Listed below is info about modeling input data as 'multi-measure records' from the AWS documentation - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/writes.html)
 
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/timestream-objects.png" width=800>
 
 ## Multi-measure records
-With multi-measure records, you can store your time-series data in a more compact format in the memory and magnetic store, which helps lower data storage costs. Also, the compact data storage lends itself to writing simpler queries for data retrieval, improves query performance, and lowers the cost of queries. Best practices for data modeling - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/data-modeling.html)
+With multi-measure records, you can store your time-series data in a more compact format in the memory and magnetic store, which helps lower data storage costs. Also, the compact data storage lends itself to writing simpler queries for data retrieval, improves query performance, and lowers the cost of queries. 
+- See best practices for data modeling - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/data-modeling.html)
 
-Furthermore, multi-measure records also support the TIMESTAMP data type for storing more than one timestamp in a time-series record. This timestamp is independent of the memory store retention period and can support values in the past, present, or future. Multi-measure records therefore help improve performance, cost, and query simplicity—and offer more flexibility for storing different types of correlated measures.
+Also multi-measure records support the `TIMESTAMP` data type for storing more than one timestamp in a time-series record. This timestamp is independent of the memory store retention period and can support values in the past, present, or future. Multi-measure records therefore help improve performance, cost, and query simplicity—and offer more flexibility for storing different types of correlated measures.
 
 ### Benefits
 
