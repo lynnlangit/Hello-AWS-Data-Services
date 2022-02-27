@@ -24,9 +24,9 @@ Chart below for reference, grouped by category -- SaaS, PaaS and IaaS for AWS Ma
 - LEARN CNN **encoding for mnist** - [link](https://www.guru99.com/convnet-tensorflow-image-classification.html)
 - LEARN theoretic and **advanced TensorFlow ML concepts** - [link](https://www.tensorflow.org/resources/learn-ml/theoretical-and-advanced-machine-learning)
 
-### 12 Hour Course
+### 12 Hour Data Science Course
 
-Work with many example Jupyter (SageMaker) notebooks in this companion repo which includes a large number of example notebooks.  This Repo is a companion to the book "Data Science on AWS"  
+Work with many example Jupyter (SageMaker) notebooks in this companion repo which includes a large number of example notebooks for data science (machine learning) use cases.  This Repo is a companion to the book "Data Science on AWS"  
 - Here's the [link](https://github.com/data-science-on-aws/data-science-on-aws) to this repo w/the example notebooks
 
 ----
