@@ -14,3 +14,10 @@ Topics and Links
 Shown below is an example AWS Architecture for a CI/CD scenario which builds both Docker and Kubernetes artifacts.  
 
 ![CI-CD](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/ci-cd.png)
+
+--- 
+
+## Additional Links of Interest
+
+Container technologies are often used in conjunction with cloud data services.  There are a number of 'competing' technologies from which to pick.
+- 📖 - **"Docker vs Singularity Containers"** - [link](https://pythonspeed.com/articles/containers-filesystem-data-processing/)
