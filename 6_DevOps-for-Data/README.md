@@ -24,5 +24,5 @@ Container technologies are often used in conjunction with cloud data services.  
 - 📖 - **"Running Docker on EC2"** - [link](https://medium.com/appgambit/part-1-running-docker-on-aws-ec2-cbcf0ec7c3f8)
 - 📖 - **"Docker vs Singularity Containers"** - [link](https://pythonspeed.com/articles/containers-filesystem-data-processing/)
 - 📖 - **"Singularity Containers Quick Start"** - [link](https://sylabs.io/guides/3.0/user-guide/quick_start.html)
-- Short article and example 📖 - **"Singularity Containers for HPC"** - [link](https://cloud4scieng.org/singularity-a-container-system-for-hpc-applications/)
+- 📖 - **"Singularity Containers for HPC"** - [link](https://cloud4scieng.org/singularity-a-container-system-for-hpc-applications/)
 
