@@ -25,10 +25,12 @@ The following are the benefits of using multi-measure records:
 
 ## Time Series Functionality
 
-<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/functions.png" width=300 align=left>
+<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/functions.png" width=300 align=right>
 
-- Timestream includs several built-in extentions to SQL for time-based queries.  For example, `CREATE_TIME_SERIES` is an aggregation function that takes all the raw measurements of a time series (time and measure values) and returns a timeseries data type - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/timeseries-specific-constructs.views.html).
-- Also there are a set of time-based functions (shown in the graphic to the left) - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/timeseries-specific-constructs.functions.html)
+- Timestream includs several built-in extentions to SQL for time-based queries.  These include both views and functions.
+- For example, `CREATE_TIME_SERIES` is an **aggregation** function that takes all the raw measurements of a time series (timestamps, dimensions and one or more measure names and values).
+  - Then it returns a timeseries data type - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/timeseries-specific-constructs.views.html).
+  - Additionally there are a set of time-based functions (shown in the graphic to the right) - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/timeseries-specific-constructs.functions.html)
 - Links to example time series queries - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/sample-queries.devops-scenarios.html)
 
 ---
@@ -37,6 +39,7 @@ The following are the benefits of using multi-measure records:
 
 - @Werner blog post on 'Time Series is the New Black' - [link]( https://www.allthingsdistributed.com/2021/06/amazon-timestream-time-series-is-the-new-black.html)
 - Timestream architecture - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/architecture.html)
+- 10 min 'What is Timestream' video - [link](https://www.youtube.com/watch?v=jXNTAyMJ3bs)
 - Open source Timestream libraries and tools - [link](https://github.com/awslabs/amazon-timestream-tools)
 - Timestream table visualizer - [link](https://github.com/aws-samples/amazon-timestream-simple-visualizer)
 
