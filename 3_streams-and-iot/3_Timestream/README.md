@@ -38,6 +38,7 @@ The following are the benefits of using multi-measure records:
 ## Links and Tools
 
 - @Werner blog post on 'Time Series is the New Black' - [link]( https://www.allthingsdistributed.com/2021/06/amazon-timestream-time-series-is-the-new-black.html)
+- Query patterns for time-based data - [link](https://aws.amazon.com/blogs/database/effective-queries-for-common-query-patterns-in-amazon-timestream/)
 - Timestream architecture - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/architecture.html)
 - 10 min 'What is Timestream' video - [link](https://www.youtube.com/watch?v=jXNTAyMJ3bs) - also graphic below, showing architecture.
 - Open source Timestream libraries and tools - [link](https://github.com/awslabs/amazon-timestream-tools)
