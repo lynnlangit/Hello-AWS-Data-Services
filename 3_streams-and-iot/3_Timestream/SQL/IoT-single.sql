@@ -1,4 +1,4 @@
--- Get the most recent fuel reading of each truck in the fleet in the past 24 hours.
+-- 1. Get the most recent fuel reading of each truck in the fleet in the past 24 hours.
 WITH latest_recorded_time AS (
     SELECT
         truck_id,
@@ -22,7 +22,7 @@ WHERE b.measure_name = 'fuel-reading'
 AND b.time > ago(24h)
 ORDER BY b.truck_id
 
--- Identify trucks that have been running on low fuel(less than 10 %) in the past 48 hours.
+-- 2. Identify trucks that have been running on low fuel(less than 10 %) in the past 48 hours.
 WITH low_fuel_trucks AS (
     SELECT time, truck_id, fleet, make, model, (measure_value::double/cast(fuel_capacity as double)*100) AS fuel_pct
     FROM "sampleDB".IoT
