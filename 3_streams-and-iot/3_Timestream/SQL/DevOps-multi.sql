@@ -1,4 +1,6 @@
--- Find the total number of measurements of CPU utilization for a specific EC2 host over the past 2 hours, filling in the missing values using linear interpolation.
+-- Find the total number of measurements of CPU utilization for a specific EC2 host over the past 2 hours, 
+-- filling in the missing values using linear interpolation
+
 WITH time_series_view AS (
       SELECT INTERPOLATE_LINEAR(
                      CREATE_TIME_SERIES(time, ROUND(cpu_utilization, 2)),
