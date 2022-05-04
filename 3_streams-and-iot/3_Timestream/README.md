@@ -5,6 +5,7 @@ The Timestream service on the AWS console includes a number of video tutorials. 
 - Data is stored by time-based retention periods into memory (hrs/days/wks/mos) or magnetic (days/wks/mos/yrs) storage, as with storage type, **storage retention** affects cost and query performance.  
   - Enable `EnableMagneticStoreWrites` for Timestream tables if you expect late arrival data to occasionally arrive with timestamps **earlier** than the memory store retention
   - If `EnableMagneticStoreWrites` in the `MagneticStoreWritesProperties` for a table is checked, then that table will accept data with timestamp earlier than your configured memory store retention period
+- About Amazon Timestream **pricing** - [link](https://aws.amazon.com/timestream/pricing/)
 - Listed below is info about modeling input data as **`multi-measure records`** from the AWS documentation - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/writes.html)
 
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/timestream-objects.png" width=800>
