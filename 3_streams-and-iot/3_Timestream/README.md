@@ -6,6 +6,7 @@ The Timestream service on the AWS console includes a number of video tutorials. 
   - Enable `EnableMagneticStoreWrites` for Timestream tables if you expect late arrival data to occasionally arrive with timestamps **earlier** than the memory store retention
   - If `EnableMagneticStoreWrites` in the `MagneticStoreWritesProperties` for a table is checked, then that table will accept data with timestamp earlier than your configured memory store retention period
 - About Amazon Timestream **pricing** - [link](https://aws.amazon.com/timestream/pricing/)
+  - Cost optimization best practices - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/metering-and-pricing.cost-optimization.html)
 - Listed below is info about modeling input data as **`multi-measure records`** from the AWS documentation - [link](https://docs.aws.amazon.com/timestream/latest/developerguide/writes.html)
 
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/timestream-objects.png" width=800>
