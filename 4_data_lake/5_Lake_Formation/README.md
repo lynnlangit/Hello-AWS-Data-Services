@@ -5,7 +5,6 @@
 AWS Lake Formation is a service that makes it easy to set up a secure data lake in days. 
 - A data lake is a centralized, curated, and secured repository that stores all your data, both in its original form and prepared for analysis. 
 - A data lake enables you to break down data silos and combine different types of analytics to gain insights and guide better business decisions. 
-- Example `how to` build a data mesh pattern at scale using AWS Lake Formation tag-based access control - [link](https://aws.amazon.com/blogs/big-data/build-a-modern-data-architecture-and-data-mesh-pattern-at-scale-using-aws-lake-formation-tag-based-access-control/)
 
 To create a data lake with AWS Lake Formation...
 - define where your data resides and what data access 
@@ -15,11 +14,14 @@ To create a data lake with AWS Lake Formation...
 - Your users can then access a centralized catalog of data which describes available data sets and their appropriate usage
 - Your users then leverage these data sets with their choice of analytics and machine learning services, like Amazon EMR for Apache Spark, Amazon Redshift Spectrum, and Amazon Athena. 
 
-## More Info
+## More Info and Examples
 
 - More info - https://aws.amazon.com/lake-formation    
 - FAQ - https://aws.amazon.com/lake-formation/faqs/
 - Workshop - https://lakeformation.workshop.aws/
+- Example `how to` **build a data mesh pattern at scale using AWS Lake Formation tag-based access control** - [link](https://aws.amazon.com/blogs/big-data/build-a-modern-data-architecture-and-data-mesh-pattern-at-scale-using-aws-lake-formation-tag-based-access-control/)
+- Example `how to` **Design a data mesh architecture using AWS Lake Formation and AWS Glue** - [link](https://aws.amazon.com/blogs/big-data/design-a-data-mesh-architecture-using-aws-lake-formation-and-aws-glue/)
+
 
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/lake-formation.png" width=800>
 
