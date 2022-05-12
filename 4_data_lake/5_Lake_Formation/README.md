@@ -5,6 +5,7 @@
 AWS Lake Formation is a service that makes it easy to set up a secure data lake in days. 
 - A data lake is a centralized, curated, and secured repository that stores all your data, both in its original form and prepared for analysis. 
 - A data lake enables you to break down data silos and combine different types of analytics to gain insights and guide better business decisions. 
+- Example `how to` build a data mesh pattern at scale using AWS Lake Formation tag-based access control - [link](https://aws.amazon.com/blogs/big-data/build-a-modern-data-architecture-and-data-mesh-pattern-at-scale-using-aws-lake-formation-tag-based-access-control/)
 
 To create a data lake with AWS Lake Formation...
 - define where your data resides and what data access 
