@@ -19,6 +19,7 @@ Connect to RDS Query Editor
 
 Best Practices
 - for Aurora generally and also for Aurora MySQL or Aurora Postgres - https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.BestPractices.html
+- Compare RDS instance size capacity and pricing - https://instances.vantage.sh/rds/
 
 ---
 ## Aurora PostgreSQL Example
