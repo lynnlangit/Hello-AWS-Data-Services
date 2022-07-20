@@ -14,6 +14,12 @@ To create a data lake with AWS Lake Formation...
 - Your users can then access a centralized catalog of data which describes available data sets and their appropriate usage
 - Your users then leverage these data sets with their choice of analytics and machine learning services, like Amazon EMR for Apache Spark, Amazon Redshift Spectrum, and Amazon Athena. 
 
+## Tagging is Key to Security
+
+A key strategy in implementing AWS Lake Formation security is the use of custom object tags.  Shown below is high-level diagram which represents the process flow.
+
+<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/lf-perms.png" width=900>
+
 ## More Info and Examples
 
 - :book: More info - https://aws.amazon.com/lake-formation    
