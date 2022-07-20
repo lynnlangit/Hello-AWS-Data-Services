@@ -16,12 +16,11 @@ To create a data lake with AWS Lake Formation...
 
 ## More Info and Examples
 
-- More info - https://aws.amazon.com/lake-formation    
-- FAQ - https://aws.amazon.com/lake-formation/faqs/
-- Workshop - https://lakeformation.workshop.aws/
-- Example `how to` **build a data mesh pattern at scale using AWS Lake Formation tag-based access control** - [link](https://aws.amazon.com/blogs/big-data/build-a-modern-data-architecture-and-data-mesh-pattern-at-scale-using-aws-lake-formation-tag-based-access-control/)
-- Example `how to` **Design a data mesh architecture using AWS Lake Formation and AWS Glue** - [link](https://aws.amazon.com/blogs/big-data/design-a-data-mesh-architecture-using-aws-lake-formation-and-aws-glue/)
-
+- :book: More info - https://aws.amazon.com/lake-formation    
+- :question: FAQ - https://aws.amazon.com/lake-formation/faqs/
+- :busts_in_silhouette: Workshop - https://lakeformation.workshop.aws/
+- :busts_in_silhouette: Example `how to` **build a data mesh pattern at scale using AWS Lake Formation tag-based access control** - [link](https://aws.amazon.com/blogs/big-data/build-a-modern-data-architecture-and-data-mesh-pattern-at-scale-using-aws-lake-formation-tag-based-access-control/)
+- :busts_in_silhouette: Example `how to` **Design a data mesh architecture using AWS Lake Formation and AWS Glue** - [link](https://aws.amazon.com/blogs/big-data/design-a-data-mesh-architecture-using-aws-lake-formation-and-aws-glue/)
 
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/lake-formation.png" width=800>
 
