@@ -4,6 +4,7 @@
 - SageMaker includes a set of tools, designed to support machine learning workloads (pipelines) on AWS.  
 - Get SageMaker code samples on GitHub - [link](https://github.com/aws/amazon-sagemaker-examples).  
 - End-to-end SageMaker demo - [link](https://github.com/aws/amazon-sagemaker-examples/tree/master/end_to_end)
+- **TIP** - you can try out AWS Sagemaker by setting up a FREE AWS Sagemaker Studio Lab account (shown above) - https://studiolab.sagemaker.aws/
 
 Shown below are the pipeline phases, which correspond to parts of the AWS SageMaker service offerings.
 
