@@ -1,4 +1,6 @@
-# Amazon Sagemaker
+# Amazon SageMaker
+
+[![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/org/repo/blob/master/path/to/notebook.ipynb)
 
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/sagemaker-studio-lab.png" width=800>
 
