@@ -1,5 +1,7 @@
 # Amazon Sagemaker
 
+<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/sagemaker-studio-lab.png" width=800>
+
 - Amazon SageMaker is a fully-mamaged machine learning service.  4 min overview - [link](https://www.youtube.com/watch?v=Qv_Tr_BCFCQ)  
 - SageMaker includes a set of tools, designed to support machine learning workloads (pipelines) on AWS.  
 - Get SageMaker code samples on GitHub - [link](https://github.com/aws/amazon-sagemaker-examples).  
