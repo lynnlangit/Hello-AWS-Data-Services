@@ -1,6 +1,6 @@
 # Amazon SageMaker
 
-[![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/lynnlangit/Hello-AWS-Data-Services/blob/master/5_machine-learning/1_SageMaker/notebooks/pytorch_mnist.ipynb)
+Open an example Notebook in AWS SageMaker Studio Lab --> [![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/lynnlangit/Hello-AWS-Data-Services/blob/master/5_machine-learning/1_SageMaker/notebooks/pytorch_mnist.ipynb)
 
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/sagemaker-studio-lab.png" width=800>
 
