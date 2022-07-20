@@ -4,6 +4,8 @@
 - The S3 Intelligent Tiering - [link](https://aws.amazon.com/blogs/aws/s3-intelligent-tiering-adds-archive-access-tiers/) - service (including several choices in archiving) to automate archiving (and save money!) for huge-sized file storage
 - TIP: Use `AWS Storge Lens` to analyze your AWS S3 bucket usage (via dashboards) - [link](https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage_lens.html), see example flow below
 
+<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/s3-storage-lens.png" width=900>
+
 ---
 
 ### Use these S3 scripts
