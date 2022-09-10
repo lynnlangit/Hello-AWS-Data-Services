@@ -47,7 +47,7 @@ Image below from AWS blog post (listed below) shows example data mesh architectu
 - :busts_in_silhouette: Example `how to` **Design a data mesh architecture using AWS Lake Formation and AWS Glue** - [link](https://aws.amazon.com/blogs/big-data/design-a-data-mesh-architecture-using-aws-lake-formation-and-aws-glue/)
 - 📚  Customer example **JP Morgan builts an AWS Data Mesh** - [link](https://aws.amazon.com/blogs/big-data/how-jpmorgan-chase-built-a-data-mesh-architecture-to-drive-significant-value-to-enhance-their-enterprise-data-platform/)
 
-<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/aws-mesh-arch.png" width=900>
+<img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/aws-mesh-arch.png" width=1000>
 
 ---
 
