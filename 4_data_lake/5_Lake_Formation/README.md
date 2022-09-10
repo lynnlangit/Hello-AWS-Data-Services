@@ -23,24 +23,26 @@ A key strategy in implementing AWS Lake Formation security is the use of custom 
 
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/lf-perms.png" width=900>
 
-## More Info and Examples
+## More Info and Examples for Lake Formation
 
 - :book: More info - https://aws.amazon.com/lake-formation    
 - :question: FAQ - https://aws.amazon.com/lake-formation/faqs/
 - :busts_in_silhouette: Workshop - https://lakeformation.workshop.aws/
-- :busts_in_silhouette: Example `how to` **build a data mesh pattern at scale using AWS Lake Formation tag-based access control** - [link](https://aws.amazon.com/blogs/big-data/build-a-modern-data-architecture-and-data-mesh-pattern-at-scale-using-aws-lake-formation-tag-based-access-control/)
-- :busts_in_silhouette: Example `how to` **Design a data mesh architecture using AWS Lake Formation and AWS Glue** - [link](https://aws.amazon.com/blogs/big-data/design-a-data-mesh-architecture-using-aws-lake-formation-and-aws-glue/)
 
-
-
-
-## Newly Released Features
+### Newly Released Features
 
 AWS Lake Formation transactions, row-level security, and acceleration are now available for preview. These capabilities are available via new, open, and public update and access APIs for data lakes. These APIs extend AWS Lake Formation’s governance capabilities with row-level security. In addition, with this preview, we introduce governed tables - a new Amazon S3 table type that supports atomic, consistent, isolated, and durable (ACID) transactions. AWS Lake Formation transactions simplify ETL script and workflow development, and allow multiple users to concurrently and reliably insert, delete, and modify rows across multiple governed tables. AWS Lake Formation automatically compacts and optimizes storage of governed tables in the background to improve query performance. 
 
 By integrating Amazon EMR with AWS Lake Formation, you can enhance data access control on multi-tenant EMR clusters by managing Amazon S3 data access at the level of databases, tables, and columns. This feature also enables SAML-based single sign-on (SSO) to EMR Notebooks and Apache Zeppelin, and simplifies the authentication for organizations using Active Directory Federation Services (ADFS). With this integration, you have a single place to manage data access for Amazon EMR along with other AWS analytics services including Amazon Redshift Spectrum, Amazon Glue, and Amazon Athena.  
 
 Amazon EMR now allows you to leverage AWS Lake Formation for defining and enforcing fine-grained access control policies for Apache Spark applications. Previously, this feature was in beta.  
+
+---
+
+## Next - Build a Data Mesh on AWS
+
+- :busts_in_silhouette: Example `how to` **build a data mesh pattern at scale using AWS Lake Formation tag-based access control** - [link](https://aws.amazon.com/blogs/big-data/build-a-modern-data-architecture-and-data-mesh-pattern-at-scale-using-aws-lake-formation-tag-based-access-control/)
+- :busts_in_silhouette: Example `how to` **Design a data mesh architecture using AWS Lake Formation and AWS Glue** - [link](https://aws.amazon.com/blogs/big-data/design-a-data-mesh-architecture-using-aws-lake-formation-and-aws-glue/)
 
 ---
 
