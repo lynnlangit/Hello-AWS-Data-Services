@@ -11,3 +11,4 @@ Key Links
 - Main AWS Analytics blog at https://aws.amazon.com/blogs/big-data/
 - Main AWS Architecture blog at https://aws.amazon.com/blogs/architecture/
 - Serverless AWS Data Lake Framework at https://sdlf.readthedocs.io/en/latest/architecture.html
+- AWS Data Mesh w/Lake Formation and AWS Glue - blog at https://aws.amazon.com/blogs/big-data/design-a-data-mesh-architecture-using-aws-lake-formation-and-aws-glue/
