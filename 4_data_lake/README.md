@@ -4,7 +4,7 @@ AWS Data Lake Architecture shown below (from AWS Documentation)
 
 <img src="https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/images/new-data-lake.png" width=800>
 
-Key Links
+## Key Links
 - AWS Data Lake CF Template - https://aws.amazon.com/solutions/implementations/data-lake-solution/ and shown above
 - AWS LakeFormation at https://aws.amazon.com/lake-formation
 - Main AWS Database blog at https://aws.amazon.com/blogs/database/
