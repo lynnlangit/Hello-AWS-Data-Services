@@ -20,9 +20,12 @@ So many tools, so little time. Get it right, the first time.
 ## Use AWS VPCs
 - Understand VPCs & Security Groups --> https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_SecurityGroups.html
 - Use VPC Flow Logs --> https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/flow-logs.html
+- Gateway VPC endpoints for S3 --> https://docs.aws.amazon.com/vpc/latest/privatelink/vpc-endpoints-s3.html
 
-## KMS
+## Encryption & Pen Testing
 - Best practices for AWS KMS --> https://d1.awsstatic.com/whitepapers/aws-kms-best-practices.pdf
+- About EBS encryption --> https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html
+- AWS Pen Testing --> https://aws.amazon.com/security/penetration-testing/
 
 ## Data Classification
 - Basic Matrix for Data Classification --> https://docs.aws.amazon.com/whitepapers/latest/data-classification/data-classification-models-and-schemes.html
