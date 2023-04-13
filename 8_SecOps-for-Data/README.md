@@ -10,3 +10,6 @@ So many tools, so little time. Get it right, the first time.
 
 ## Billing Management
 - Tutorial 'Delegate access to AWS Billing Console' --> https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_billing.html
+
+Open Source Tools
+- :octocat: Tool to prevent you from committing AWS Secrets to GitHub --> https://github.com/awslabs/git-secrets
