@@ -1,5 +1,6 @@
 # AWS Machine Learning
 
+- **NEW** in 2023 - AWS Generative AI tools / blog announcement(Amazon Bedrock and more) - [link](https://aws.amazon.com/blogs/machine-learning/announcing-new-tools-for-building-with-generative-ai-on-aws/)
 - This repo is a companion to my course on LinkedIn Learning - `AWS Machine Learning Essentials` - [link](https://www.linkedin.com/learning/amazon-web-services-machine-learning-essential-training)
 - reInvent 2020 ML keynote recap - https://aws.amazon.com/blogs/aws/reinvent-2020-liveblog-machine-learning-keynote/
 
