@@ -1,5 +1,7 @@
 # AWS Data Services and Machine Learning
 
+- 🌟 NEW in 2023 - Generative AI on AWS (Amazon Bedrock and more) - [link](https://aws.amazon.com/generative-ai/)
+
 **IMPORTANT** This Repo is a companion to my LinkedIn Learning courses - services covered are shown in the diagram below.  Detail on DEMOS for AWS  services in [this file](https://github.com/lynnlangit/Hello-AWS-Data-Services/blob/master/DEMOS.md)
 
 - 📚 my **'AWS Data Services'** Linked In Learning course - [link](https://www.linkedin.com/learning/amazon-web-services-data-services-2)
