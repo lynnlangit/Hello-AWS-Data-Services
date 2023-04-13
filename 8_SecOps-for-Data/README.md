@@ -11,5 +11,15 @@ So many tools, so little time. Get it right, the first time.
 ## Billing Management
 - Tutorial 'Delegate access to AWS Billing Console' --> https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_billing.html
 
-Open Source Tools
+## Amazon Cloud Directories
+- Documentation --> https://docs.aws.amazon.com/directoryservice/latest/admin-guide/directory_amazon_cd.html
+- Create Amazon WorkDocs site and associate a directory --> https://docs.aws.amazon.com/workdocs/latest/adminguide/cloud_quick_start.html
+- Amazon Cognito User Pool Features --> https://aws.amazon.com/blogs/security/how-to-use-new-advanced-security-features-for-amazon-cognito-user-pools/
+- Connect on-prem directory to AWS using Federation --> https://aws.amazon.com/blogs/security/how-to-connect-your-on-premises-active-directory-to-aws-using-ad-connector/
+
+## Use AWS VPCs
+- Understand VPCs & Security Groups --> https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_SecurityGroups.html
+- Use VPC Flow Logs --> https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/flow-logs.html
+
+## Open Source Tools
 - :octocat: Tool to prevent you from committing AWS Secrets to GitHub --> https://github.com/awslabs/git-secrets
