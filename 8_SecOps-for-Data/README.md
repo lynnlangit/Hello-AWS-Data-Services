@@ -21,5 +21,11 @@ So many tools, so little time. Get it right, the first time.
 - Understand VPCs & Security Groups --> https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_SecurityGroups.html
 - Use VPC Flow Logs --> https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/flow-logs.html
 
+## KMS
+- Best practices for AWS KMS --> https://d1.awsstatic.com/whitepapers/aws-kms-best-practices.pdf
+
+## Data Classification
+- Basic Matrix for Data Classification --> https://docs.aws.amazon.com/whitepapers/latest/data-classification/data-classification-models-and-schemes.html
+
 ## Open Source Tools
 - :octocat: Tool to prevent you from committing AWS Secrets to GitHub --> https://github.com/awslabs/git-secrets
