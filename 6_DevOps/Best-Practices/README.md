@@ -6,7 +6,7 @@ Companion to my LinkedIn Learning Course with the same name
 
 - What is Cloud DevOps?
 - Core Cloud Security practices
-- Core Cloud FinOps practices
+- Core Cloud FinOps practices - [link](https://github.com/lynnlangit/aws-cost-control) to my GitHub Repo on the `aws-cost-control` topic
 - JIT DevOps
 - Core Cloud Observability/Monitoring practices
 
