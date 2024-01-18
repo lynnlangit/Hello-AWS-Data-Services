@@ -1,0 +1,33 @@
+Use Cloud Shell
+
+
+My Quick Tips --> https://dev.to/lynnlangit/aws-cloud-shell-quick-tips-1n5o
+
+
+
+ setup autocomplete, must run before EACH command!
+ `aws --cli-auto-prompt`
+
+ 1. buckets
+ `aws s3...` vs
+ `aws s3api...` vs
+ `aws s3control...`
+
+ aws s3api create-bucket --bucket new-langit --region us-east-1 --create-bucket-configuration LocationConstraint=us-east-1
+
+ 2. IAM
+
+ use the console to learn what you want to do 
+ script after
+ `aws iam create-user <name> ....`
+
+ MFA on root user
+ create two other users 
+ - admin - non-root (set MFA)
+ - non-admin - no console access (show CloudShell)
+
+ 3. Billing alert
+
+ use console and search
+ script after
+ `aws cloudwatch set-alarm-state --alarm-name billing...`
