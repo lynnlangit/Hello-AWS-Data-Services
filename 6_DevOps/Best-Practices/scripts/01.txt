@@ -1,9 +1,8 @@
+Section One
+
 Use Cloud Shell
 
-
 My Quick Tips --> https://dev.to/lynnlangit/aws-cloud-shell-quick-tips-1n5o
-
-
 
  setup autocomplete, must run before EACH command!
  `aws --cli-auto-prompt`
@@ -28,6 +27,21 @@ My Quick Tips --> https://dev.to/lynnlangit/aws-cloud-shell-quick-tips-1n5o
 
  3. Billing alert
 
- use console and search
+ use console and search - in CloudWatch NOT Billing!
  script after
  `aws cloudwatch set-alarm-state --alarm-name billing...`
+
+ https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated_charges_with_cloudwatch.html
+
+ 4. Single AWS Account
+
+ vs. multiple accounts (dev, test, prod...) within an Organization 
+ account info
+ log in as non-root to console
+ log in to CloudShell (restrict 'click on the console')
+ login to local aws cli
+
+ 5. Observability - CloudWatch and more
+
+ CloudWatch vs CloudTrail
+ X-Ray (demo app set up with CloudFormation)
