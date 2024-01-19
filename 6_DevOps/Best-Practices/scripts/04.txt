@@ -1,7 +1,7 @@
 Section FOUR 
 
 ## Specialty DevOps
-- DataOps
-- ServerlessOps
-- MLOps
-- LLMOps
+- DataOps - AWS Glue crawler
+- ServerlessOps - Serverless web app
+- MLOps - Train model with Sagemaker
+- LLMOps - Prompt engineer LLM via API
