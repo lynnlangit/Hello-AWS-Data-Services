@@ -1,7 +1,7 @@
 Section TWO 
 
 ## Infra as Code
-- AWS Cloud Scripting
-- AWS Dev Environments
-- AWS Cloud Formation Templates
-- Cloud Templates (Terraform, Pulimi...)
+- AWS Cloud Scripting - automate w/lambda 
+- AWS Dev Environments - use Cloud9/awscli
+- AWS Cloud Formation Templates - edit CF Template params
+- Cloud Templates (Terraform, Pulimi...) - deploy via Terraform
