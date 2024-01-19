@@ -1,7 +1,7 @@
 Section FIVE
 
 ## CI/CD
-- Cloud Testing Fundamentals
-- AWS Tools for CI/CD
-- Demo: Create a CI/CD Pipeline
-- Explore CI/CD Best Practices
+- Cloud Testing Fundamentals - run automated tests w/Cloud Build
+- AWS Tools for CI/CD - pipeline - CodeCommit, etc...
+- Demo: Create a CI/CD Pipeline - Push code and trigger pipeline
+- Explore CI/CD Best Practices - Well-architected reliability pillar
