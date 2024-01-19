@@ -1,6 +1,6 @@
-Section One
+Section ONE 
 
-Use Cloud Shell
+Use Cloud Shell - Understand (UI), then automate (script)
 
 My Quick Tips --> https://dev.to/lynnlangit/aws-cloud-shell-quick-tips-1n5o
 
@@ -14,7 +14,7 @@ My Quick Tips --> https://dev.to/lynnlangit/aws-cloud-shell-quick-tips-1n5o
 
  aws s3api create-bucket --bucket new-langit --region us-east-1 --create-bucket-configuration LocationConstraint=us-east-1
 
- 2. IAM
+ 2. IAM - Root, non-root - click vs. cli
 
  use the console to learn what you want to do 
  script after
@@ -25,7 +25,7 @@ My Quick Tips --> https://dev.to/lynnlangit/aws-cloud-shell-quick-tips-1n5o
  - admin - non-root (set MFA)
  - non-admin - no console access (show CloudShell)
 
- 3. Billing alert
+ 3. Billing alert - Budget/Alert
 
  use console and search - in CloudWatch NOT Billing!
  script after
@@ -33,7 +33,7 @@ My Quick Tips --> https://dev.to/lynnlangit/aws-cloud-shell-quick-tips-1n5o
 
  https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated_charges_with_cloudwatch.html
 
- 4. Single AWS Account
+ 4. Single AWS Account - Accessing console, shell, local client, SDK
 
  vs. multiple accounts (dev, test, prod...) within an Organization 
  account info
@@ -41,7 +41,7 @@ My Quick Tips --> https://dev.to/lynnlangit/aws-cloud-shell-quick-tips-1n5o
  log in to CloudShell (restrict 'click on the console')
  login to local aws cli
 
- 5. Observability - CloudWatch and more
+ 5. Observability - CloudWatch and more - tools and concepts
 
  CloudWatch vs CloudTrail
  X-Ray (demo app set up with CloudFormation)
