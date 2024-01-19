@@ -1,0 +1,5 @@
+## Blueprints
+- Effective Cloud Formation
+- Effective Cloud Diagrams
+- Live Cloud Diagrams
+- Using the AWS Well-architected Tools

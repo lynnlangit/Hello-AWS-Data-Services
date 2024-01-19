@@ -1,0 +1,5 @@
+## CI/CD
+- Cloud Testing Fundamentals
+- AWS Tools for CI/CD
+- Demo: Create a CI/CD Pipeline
+- Explore CI/CD Best Practices
