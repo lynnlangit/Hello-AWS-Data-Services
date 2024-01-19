@@ -1,7 +1,7 @@
 Section THREE 
 
 ## Blueprints
-- Effective Cloud Formation
-- Effective Cloud Diagrams
-- Live Cloud Diagrams
-- Using the AWS Well-architected Tools
+- Effective Cloud Formation - nested CF stacks
+- Effective Cloud Diagrams - Lucidchart
+- Live Cloud Diagrams - Lucid Live
+- Using the AWS Well-architected Tools - Checklist and Tools
