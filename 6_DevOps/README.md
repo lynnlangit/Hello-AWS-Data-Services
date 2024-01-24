@@ -13,4 +13,4 @@ Areas in this section of this repo...
 
 ## Links
 - 6-pillars - https://aws.amazon.com/blogs/apn/the-6-pillars-of-the-aws-well-architected-framework/
-- Full document - https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html
+- Full document (882 pages!) - https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html
