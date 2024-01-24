@@ -2,6 +2,12 @@ Section THREE
 
 ## Blueprints
 - Effective Cloud Formation - nested CF stacks
-- Effective Cloud Diagrams - Lucidchart
-- Live Cloud Diagrams - Lucid Live
-- Using the AWS Well-architected Tools - Checklist and Tools
+  - https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-nested-stacks.html
+- Effective Cloud Diagrams 
+  - Lucidchart
+- Live Cloud Diagrams 
+  - Lucid Live
+  - CloudCraft - 14 day trial - https://app.cloudcraft.co/blueprint/default
+- Using the AWS Well-architected Tools 
+  - Checklists, whitepapers -- see main page links
+  - Interactive Tools - https://aws.amazon.com/well-architected-tool/
