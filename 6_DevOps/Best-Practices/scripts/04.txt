@@ -1,7 +1,13 @@
 Section FOUR 
 
 ## Specialty DevOps
-- DataOps - AWS Glue crawler
-- ServerlessOps - Serverless web app
-- MLOps - Train model with Sagemaker
-- LLMOps - Prompt engineer LLM via API
+- DataOps 
+  - AWS Glue crawler - https://docs.aws.amazon.com/glue/latest/dg/tutorial-add-crawler.html
+- ServerlessOps 
+  - Serverless web app - https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/
+- MLOps 
+  - Train model with Sagemaker 
+      - arch - https://docs.aws.amazon.com/sagemaker/latest/dg/how-it-works-training.html
+      - code - https://docs.aws.amazon.com/sagemaker/latest/dg/ex1-train-model.html
+- LLMOps 
+  - Prompt engineer Bedrock LLM via API - https://docs.aws.amazon.com/bedrock/latest/userguide/general-guidelines-for-bedrock-users.html
