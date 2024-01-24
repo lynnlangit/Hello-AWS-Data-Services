@@ -10,5 +10,6 @@ Section FIVE
   - CodeCommit, etc...
 - Demo: Create a CI/CD Pipeline 
   - Push code and trigger pipeline
+  - End-to-end example - https://aws.amazon.com/blogs/devops/building-end-to-end-aws-devsecops-ci-cd-pipeline-with-open-source-sca-sast-and-dast-tools/
 - Explore CI/CD Best Practices 
   - Well-architected reliability pillar
