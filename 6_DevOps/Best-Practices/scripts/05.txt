@@ -1,7 +1,14 @@
 Section FIVE
 
 ## CI/CD
-- Cloud Testing Fundamentals - run automated tests w/Cloud Build
-- AWS Tools for CI/CD - pipeline - CodeCommit, etc...
-- Demo: Create a CI/CD Pipeline - Push code and trigger pipeline
-- Explore CI/CD Best Practices - Well-architected reliability pillar
+- Cloud Testing Fundamentals 
+  - automate build of static website - https://docs.aws.amazon.com/codebuild/latest/userguide/sample-disable-artifact-encryption.html
+  - run automated tests w/Cloud Build
+- AWS Tools for CI/CD 
+  - General overview - https://docs.aws.amazon.com/whitepapers/latest/cicd_for_5g_networks_on_aws/cicd-on-aws.html
+  - Code Pipeline (test action) - https://docs.aws.amazon.com/codebuild/latest/userguide/how-to-create-pipeline.html
+  - CodeCommit, etc...
+- Demo: Create a CI/CD Pipeline 
+  - Push code and trigger pipeline
+- Explore CI/CD Best Practices 
+  - Well-architected reliability pillar
