@@ -5,7 +5,7 @@ Companion to my LinkedIn Learning Course with the same name
 ## Foundations
 
 - What is Cloud DevOps? - defined by AWS - [link](https://aws.amazon.com/devops/what-is-devops/)
-- Core Cloud Security practices
+- Core Cloud User IAM Security practices - [link](https://aws.amazon.com/iam/resources/best-practices/)
 - Core Cloud FinOps practices - [link](https://github.com/lynnlangit/aws-cost-control) to my GitHub Repo on the `aws-cost-control` topic
 - JIT DevOps
 - Core Cloud Observability/Monitoring practices
