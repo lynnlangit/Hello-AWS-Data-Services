@@ -44,4 +44,4 @@ My Quick Tips --> https://dev.to/lynnlangit/aws-cloud-shell-quick-tips-1n5o
  5. Observability - CloudWatch and more - tools and concepts
 
  CloudWatch vs CloudTrail
- X-Ray (demo app set up with CloudFormation)
+ X-Ray (demo app set up with CloudFormation) - Scorekeep App Example (ECS, DynamoDB...)
