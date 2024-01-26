@@ -17,7 +17,7 @@ Companion to my LinkedIn Learning Course with the same name
 - Cloud Templates (Terraform, Pulimi...)
 
 ## Blueprints
-- Effective Cloud Formation
+- Effective Cloud Formation - AWS Best Practices - [link](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html)
 - Effective Cloud Diagrams
 - Live Cloud Diagrams
 - Using the AWS Well-architected Tools
