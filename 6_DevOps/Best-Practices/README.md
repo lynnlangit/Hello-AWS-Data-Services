@@ -27,7 +27,7 @@ Companion to my LinkedIn Learning Course with the same name
 - Effective Cloud Diagrams
   - My Keynote 'Viz Cloud Systems' - [link](https://www.youtube.com/watch?v=HHitdmje1ok)
 - Live Cloud Diagrams
-  - Cloudcraft.co, Lucid Charts Live, Hava.io + AWS Workload Discovery
+  - Cloudcraft.co, Lucid Charts Live, Hava.io, Holori + AWS Workload Discovery
 - Using the AWS Well-architected Tools
   - 6-pillars - https://aws.amazon.com/blogs/apn/the-6-pillars-of-the-aws-well-architected-framework/
   - Full document (882 pages!) - https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html
