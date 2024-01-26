@@ -1,7 +1,7 @@
 Section TWO 
 
 ## Infra as Code
-- AWS Cloud Scripting - automate w/lambda - use console, generate script
+- AWS Cloud Scripting - automate w/lambda (blueprints) - use console, generate script
 - AWS Dev Environments - use Cloud9/awscli - start from console, run generated script
 - AWS Cloud Formation Templates - edit CF Template params - start from console, update / build params
 - Cloud Templates (Terraform, Pulimi...) - deploy via Terraform - use Cloud9 to deploy
