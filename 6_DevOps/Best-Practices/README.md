@@ -22,9 +22,12 @@ Companion to my LinkedIn Learning Course with the same name
   - Complete AWS S3 Terraform Example (from Terraform) - [link](https://github.com/terraform-aws-modules/terraform-aws-s3-bucket/tree/v4.0.1/examples/complete)
 
 ## Blueprints
-- Effective Cloud Formation - AWS Best Practices - [link](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html)
+- Effective Cloud Formation
+  - AWS Best Practices - [link](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html)
 - Effective Cloud Diagrams
+  - My Keynote 'Viz Cloud Systems' - [link](https://www.youtube.com/watch?v=HHitdmje1ok)
 - Live Cloud Diagrams
+  - Cloudcraft.co, Lucid Charts Live, Hava.io + AWS Workload Discovery
 - Using the AWS Well-architected Tools
   - 6-pillars - https://aws.amazon.com/blogs/apn/the-6-pillars-of-the-aws-well-architected-framework/
   - Full document (882 pages!) - https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html
