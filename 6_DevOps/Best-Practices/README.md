@@ -7,7 +7,7 @@ Companion to my LinkedIn Learning Course with the same name
 - What is Cloud DevOps? - defined by AWS - [link](https://aws.amazon.com/devops/what-is-devops/)
 - Core Cloud User IAM Security practices - [link](https://aws.amazon.com/iam/resources/best-practices/)
 - Core Cloud FinOps practices - [link](https://github.com/lynnlangit/aws-cost-control) to my GitHub Repo on the `aws-cost-control` topic
-- JIT DevOps
+- JIT DevOps / Admin Access Example - [link](https://aws.amazon.com/blogs/apn/just-in-time-least-privileged-access-to-aws-administrative-roles-with-okta-and-aws-identity-center)
 - Core Cloud Observability/Monitoring practices
 
 ## Infra as Code
