@@ -14,6 +14,7 @@ Companion to my LinkedIn Learning Course with the same name
 - AWS Cloud Scripting
 - AWS Dev Environments
 - AWS Cloud Formation Templates
+  - Simple AWS S3 CF Template - [link](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/quickref-s3.html)
 - Cloud Templates (Terraform, Pulimi...)
   - Simple AWS S3 Terraform Example (from blog post) - [link](https://blog.purestorage.com/purely-informational/how-to-create-an-s3-bucket-with-terraform/)
   - Complete AWS S3 Terraform Example (from Terraform) - [link](https://github.com/terraform-aws-modules/terraform-aws-s3-bucket/tree/v4.0.1/examples/complete)
