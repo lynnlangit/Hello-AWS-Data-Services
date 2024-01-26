@@ -11,7 +11,8 @@ Companion to my LinkedIn Learning Course with the same name
 - Core Cloud Observability/Monitoring practices - [link](https://aws.amazon.com/cloudops/monitoring-and-observability)
 
 ## Infra as Code
-- AWS Cloud Scripting
+- AWS Cloud Scripting w/SDK
+  - Simple AWS S3 Python list buckets - [link](https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/python/example_code/s3/s3_basics/hello.py)
 - AWS Dev Environments
 - AWS Cloud Formation Templates
   - Simple AWS S3 CF Template - [link](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/quickref-s3.html)
