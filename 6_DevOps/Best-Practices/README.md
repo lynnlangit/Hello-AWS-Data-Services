@@ -14,6 +14,7 @@ Companion to my LinkedIn Learning Course with the same name
 - AWS Cloud Scripting w/SDK
   - Simple AWS S3 Python list buckets - [link](https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/python/example_code/s3/s3_basics/hello.py)
 - AWS Dev Environments
+  - AWS DevEnvs Best Practice Guidance (Dev/Test/Prod) - [link](https://docs.aws.amazon.com/cdk/v2/guide/best-practices.html)
 - AWS Cloud Formation Templates
   - Simple AWS S3 CF Template - [link](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/quickref-s3.html)
 - Cloud Templates (Terraform, Pulimi...)
