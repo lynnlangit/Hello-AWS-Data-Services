@@ -31,8 +31,8 @@ Companion to my LinkedIn Learning Course with the same name
   - AWS - AWS Workload Discovery
   - 3rd Party - Cloudcraft.co, Lucid Charts Live, Hava.io, Holori 
 - Using the AWS Well-architected Tools
-  - 6-pillars - https://aws.amazon.com/blogs/apn/the-6-pillars-of-the-aws-well-architected-framework/
-  - Full document (882 pages!) - https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html
+  - 6-pillars of well-architected AWS cloud applications - [link](https://aws.amazon.com/blogs/apn/the-6-pillars-of-the-aws-well-architected-framework/)
+  - Full AWS well-architected document (882 pages!) - [link](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
 
 ## Specialty DevOps
 - AWS DataOps by (CF Template) example - [link](https://aws.amazon.com/blogs/big-data/build-a-dataops-platform-to-break-silos-between-engineers-and-analysts/)
