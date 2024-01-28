@@ -35,10 +35,12 @@ Companion to my LinkedIn Learning Course with the same name
   - Full document (882 pages!) - https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html
 
 ## Specialty DevOps
-- DataOps
-- ServerlessOps
-- MLOps
-- LLMOps
+- AWS DataOps by (CF Template) example - [link](https://aws.amazon.com/blogs/big-data/build-a-dataops-platform-to-break-silos-between-engineers-and-analysts/)
+- AWS ServerlessOps Review Tool on GitHub - [link](https://github.com/aws-samples/serverless-ops-review)
+- AWS MLOps for SageMaker
+  - Architecture Explained - [link](https://aws.amazon.com/sagemaker/mlops)
+  - Demo Walkthrough w/Template - [link](https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-projects-walkthrough.html)
+  - AWS ML + LLMOps Explained - [link](https://aws.amazon.com/blogs/machine-learning/operationalize-llm-evaluation-at-scale-using-amazon-sagemaker-clarify-and-mlops-services/)
 
 ## CI/CD
 - Cloud Testing Fundamentals
