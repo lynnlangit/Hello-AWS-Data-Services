@@ -49,5 +49,6 @@ Companion to my LinkedIn Learning Course with the same name
 - AWS Tools for CI/CD tools and architecture - [link](https://docs.aws.amazon.com/whitepapers/latest/cicd_for_5g_networks_on_aws/cicd-on-aws.html)
 - Demos: Create a CI/CD Pipeline
     - Simple Example (S3) w/code - [link](https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-simple-s3.html)
+    - Pipelines for S3 with CF templates - [link](https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-cloudformation.html)
     - Four stage example w/code - [link](https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-four-stage-pipeline.html)
 - Explore CI/CD Best Practices
