@@ -1,0 +1,10 @@
+Setup notes for testing
+
+- Create VPC
+- Create subnet
+- Create Internet Gateway
+- Create route in Route Table linking IGW to VPC
+- Create key pair - download to local and upload to CloudShell
+
+- Create EC2 instance using key pair and named VPC
+- Test connectivity with Cloud Shell and via local SSH (terminal) - chmod on *.pem and cd to file location BEFORE SSH
