@@ -12,4 +12,6 @@ Setup notes for testing
 - Create EC2 instance using key pair and named VPC
 - Test connectivity 
     - via local SSH (terminal) - chmod on *.pem and cd to file location BEFORE SSH
-    - with Cloud Shell - upload key (*.pem) + chmod it, then get IP and update security group inbound rule for SSH (22) with that IP
+    - with Cloud Shell 
+        - upload key (*.pem) + chmod it, 
+        - then get IP EACH SESSION! (curl https://icanhazip.com/v4) and update security group inbound rule for SSH (22) with that IP
