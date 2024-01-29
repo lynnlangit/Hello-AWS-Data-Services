@@ -43,7 +43,9 @@ Companion to my LinkedIn Learning Course with the same name
   - AWS ML + LLMOps Explained - [link](https://aws.amazon.com/blogs/machine-learning/operationalize-llm-evaluation-at-scale-using-amazon-sagemaker-clarify-and-mlops-services/)
 
 ## CI/CD
-- Cloud Testing Fundamentals
+- Cloud Infrastructe Testing Fundamentals
+    - TDD for Cloud infrstructure guidance - [link](https://docs.aws.amazon.com/prescriptive-guidance/latest/best-practices-cdk-typescript-iac/development-best-practices.html)
+    - General guidance and examples - [link](https://docs.aws.amazon.com/cdk/v2/guide/testing.html)
 - AWS Tools for CI/CD
 - Demo: Create a CI/CD Pipeline
 - Explore CI/CD Best Practices
