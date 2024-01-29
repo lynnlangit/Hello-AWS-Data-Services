@@ -6,6 +6,7 @@ Setup notes for testing
 - Create subnet
 - Create Internet Gateway
 - Create route in Route Table linking IGW to VPC
+- Create Security Group - set Inbound Rules to SSH/22 for **my IP**, Outbound rules to all for **my IP**
 - Create key pair - download to local and upload to CloudShell
 
 - Create EC2 instance using key pair and named VPC
