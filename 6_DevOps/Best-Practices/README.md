@@ -46,6 +46,8 @@ Companion to my LinkedIn Learning Course with the same name
 - Cloud Infrastructe Testing Fundamentals
     - TDD for Cloud infrstructure guidance - [link](https://docs.aws.amazon.com/prescriptive-guidance/latest/best-practices-cdk-typescript-iac/development-best-practices.html)
     - General guidance and examples - [link](https://docs.aws.amazon.com/cdk/v2/guide/testing.html)
-- AWS Tools for CI/CD
-- Demo: Create a CI/CD Pipeline
+- AWS Tools for CI/CD tools and architecture - [link](https://docs.aws.amazon.com/whitepapers/latest/cicd_for_5g_networks_on_aws/cicd-on-aws.html)
+- Demos: Create a CI/CD Pipeline
+    - Simple Example (S3) w/code - [link](https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-simple-s3.html)
+    - Four stage example w/code - [link](https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-four-stage-pipeline.html)
 - Explore CI/CD Best Practices
