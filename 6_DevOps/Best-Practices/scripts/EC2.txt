@@ -1,5 +1,7 @@
 Setup notes for testing
 
+**IMPORTANT - UPDATE IP Address to RECORDING LOCATION**
+
 - Create VPC
 - Create subnet
 - Create Internet Gateway
