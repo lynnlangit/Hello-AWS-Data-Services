@@ -1,9 +1,9 @@
 # AWS SecOps for Data
 
 So many tools, so little time. Get it right, the first time.  
-Companion to my LIL course 'AWS Adv Sec Mgmt: Patterns & Practices'  
+Companion to my LIL course `AWS Adv Sec Mgmt: Patterns & Practices`    
 
-## List of Links
+## Links for Core Security Tasks
 - core AWS security --> [link](https://aws.amazon.com/security/)
 - free AWS security tools --> [link](https://aws.amazon.com/free/security)
 - basic AWS checklist PDF --> [link](https://d1.awsstatic.com/whitepapers/Security/AWS_Security_Checklist.pdf)
@@ -12,6 +12,9 @@ Companion to my LIL course 'AWS Adv Sec Mgmt: Patterns & Practices'
 
 ## Billing Management
 - Tutorial 'Delegate access to AWS Billing Console' --> [link](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_billing.html)
+
+## IAM (Identity and Access Management)
+- IAM Policy Simulator --> [link](https://policysim.aws.amazon.com)
 
 ## Amazon Cloud Directories
 - Documentation for Directories --> [link](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/directory_amazon_cd.html)
@@ -28,6 +31,7 @@ Companion to my LIL course 'AWS Adv Sec Mgmt: Patterns & Practices'
 - Best practices for AWS KMS --> [link](https://d1.awsstatic.com/whitepapers/aws-kms-best-practices.pdf)
 - About EBS encryption --> [link](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html)
 - AWS Pen Testing --> [link](https://aws.amazon.com/security/penetration-testing/)
+- KMS Best Practices --> [link](https://d1.awsstatic.com/whitepapers/aws-kms-best-practices.pdf)
 
 ## Data Classification
 - Basic Matrix for Data Classification --> [link](https://docs.aws.amazon.com/whitepapers/latest/data-classification/data-classification-models-and-schemes.html)
