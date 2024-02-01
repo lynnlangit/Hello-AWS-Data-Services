@@ -1,6 +1,7 @@
 # AWS SecOps for Data
 
-So many tools, so little time. Get it right, the first time.
+So many tools, so little time. Get it right, the first time.  
+Companion to my LIL course 'AWS Adv Sec Mgmt: Patterns & Practices'  
 
 ## List of Links
 - core AWS security --> [link](https://aws.amazon.com/security/)
