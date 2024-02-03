@@ -28,7 +28,7 @@ Companion to my LinkedIn Learning Course with the same name
 - Effective Cloud Diagrams
   - My Keynote 'Viz Cloud Systems' - [link](https://www.youtube.com/watch?v=HHitdmje1ok)
 - Live Cloud Diagrams
-  - AWS Live Cloud Formation - blog announcement - [link](https://aws.amazon.com/blogs/devops/import-entire-applications-into-aws-cloudformation/)
+  - AWS Live Cloud Formation (IaC Generator Tool) - blog announcement - [link](https://aws.amazon.com/blogs/devops/import-entire-applications-into-aws-cloudformation/)
   - AWS - AWS Workload Discovery
   - 3rd Party - Cloudcraft.co, Lucid Charts Live, Hava.io, Holori 
 - Using the AWS Well-architected Tools
