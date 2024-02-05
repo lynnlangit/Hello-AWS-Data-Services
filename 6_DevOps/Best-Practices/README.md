@@ -12,6 +12,7 @@ Companion to my LinkedIn Learning Course with the same name
 
 ## Infra as Code
 - AWS Cloud Scripting w/SDK
+  - what is the `awscli` - [link](https://aws.amazon.com/cli/)
   - Simple AWS S3 Python list buckets - [link](https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/python/example_code/s3/s3_basics/hello.py)
 - AWS Dev Environments & Cloud9
   - AWS DevEnvs Best Practice Guidance (Dev/Test/Prod) - [link](https://docs.aws.amazon.com/cdk/v2/guide/best-practices.html)
