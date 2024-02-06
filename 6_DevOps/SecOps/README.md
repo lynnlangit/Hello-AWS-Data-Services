@@ -1,7 +1,8 @@
 # AWS SecOps for Data
 
 So many tools, so little time. Get it right, the first time.  
-AWS Shared Security model visualized --> [link](https://d1.awsstatic.com/security-center/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg)
+AWS Shared Security model visualized --> [link](https://d1.awsstatic.com/security-center/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg)  
+<img src="https://d1.awsstatic.com/security-center/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg" width=800>  
 Companion to my LIL course `AWS Adv Sec Mgmt: Patterns & Practices`    
 
 ## Links for Core Security Tasks
