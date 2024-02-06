@@ -11,7 +11,6 @@ Companion to my LIL course `AWS Adv Sec Mgmt: Patterns & Practices`
 - free AWS security tools --> [link](https://aws.amazon.com/free/security)
 - basic AWS checklist PDF --> [link](https://d1.awsstatic.com/whitepapers/Security/AWS_Security_Checklist.pdf)
 - Well-Architected AWS Framework (see Security Pillar) PDF --> [link](https://docs.aws.amazon.com/pdfs/wellarchitected/latest/framework/wellarchitected-framework.pdf#welcome)
-- Awesome AWS Security HUGE link list --> [link](https://github.com/jassics/awesome-aws-security)
 
 ## Billing Management
 - Tutorial 'Delegate access to AWS Billing Console' --> [link](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_billing.html)
@@ -41,5 +40,6 @@ Companion to my LIL course `AWS Adv Sec Mgmt: Patterns & Practices`
 ## Data Classification
 - Basic Matrix for Data Classification --> [link](https://docs.aws.amazon.com/whitepapers/latest/data-classification/data-classification-models-and-schemes.html)
 
-## Open Source Tools
+## Open Source Tools and Lists
 - :octocat: Tool to prevent you from committing AWS Secrets to GitHub --> [link](https://github.com/awslabs/git-secrets)
+- Awesome AWS Security HUGE link list --> [link](https://github.com/jassics/awesome-aws-security)
