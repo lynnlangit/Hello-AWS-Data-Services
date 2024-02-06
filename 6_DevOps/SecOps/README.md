@@ -16,6 +16,7 @@ Companion to my LIL course `AWS Adv Sec Mgmt: Patterns & Practices`
 - Tutorial 'Delegate access to AWS Billing Console' --> [link](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_billing.html)
 
 ## IAM (Identity and Access Management) & Organizations
+- Best practices for IAM Root user --> [link](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html)
 - IAM Policy Simulator --> [link](https://policysim.aws.amazon.com)
 - AWS Organizations --> [link](https://aws.amazon.com/organizations/)
 - AWS SCPs (Service Control Policies) for Organizations --> [link](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html)
