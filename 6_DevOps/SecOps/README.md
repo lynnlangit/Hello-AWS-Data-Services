@@ -16,6 +16,7 @@ Companion to my LIL course `AWS Adv Sec Mgmt: Patterns & Practices`
 ## IAM (Identity and Access Management) & Organizations
 - IAM Policy Simulator --> [link](https://policysim.aws.amazon.com)
 - AWS Organizations --> [link](https://aws.amazon.com/organizations/)
+- AWS SCPs (Service Control Policies) for Organizations --> [link](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html)
 
 ## Amazon Cloud Directories
 - Documentation for Directories --> [link](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/directory_amazon_cd.html)
