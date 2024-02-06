@@ -13,8 +13,9 @@ Companion to my LIL course `AWS Adv Sec Mgmt: Patterns & Practices`
 ## Billing Management
 - Tutorial 'Delegate access to AWS Billing Console' --> [link](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_billing.html)
 
-## IAM (Identity and Access Management)
+## IAM (Identity and Access Management) & Organizations
 - IAM Policy Simulator --> [link](https://policysim.aws.amazon.com)
+- AWS Organizations --> [link](https://aws.amazon.com/organizations/)
 
 ## Amazon Cloud Directories
 - Documentation for Directories --> [link](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/directory_amazon_cd.html)
