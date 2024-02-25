@@ -20,6 +20,7 @@ My example AWS GitHub Repos (code, links and sample data):
 
   - :octocat: **'hello-aws-data-services'** - [link](https://github.com/lynnlangit/Hello-AWS-Data-Services) - this repo
   - :octocat: **'aws-cost-control'** - [link](https://github.com/lynnlangit/aws-cost-control) - repo / course
+  - :octocat: **'aws-for-'bioinformatics'** - [link](https://github.com/lynnlangit/aws-for-bioinformatics) - repo / FREE course
   - :octocat: **'learning-hadoop-and-spark'** - [link](https://github.com/lynnlangit/learning-hadoop-and-spark) - repo / course
   - :octocat: **'learning-nosql'** - [link](https://github.com/lynnlangit/learning-nosql) - repo / course
 
